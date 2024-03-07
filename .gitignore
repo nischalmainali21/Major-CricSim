@@ -13,3 +13,5 @@ pip-delete-this-directory.txt
 .ipynb_checkpoints
 
 .env
+
+final_stats_data.csv
