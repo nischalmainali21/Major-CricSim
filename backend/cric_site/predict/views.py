@@ -286,8 +286,8 @@ class PlotDataAPIView(APIView):
         inning1_data['cumulative_predicted_runs'] = inning1_data['predicted_current_score']
         inning2_data['cumulative_predicted_runs'] = inning2_data['predicted_current_score']
         
-        inning1_data_json = inning1_data[['current_ball_number', 'actual_outcome', 'predicted_current_score']].to_dict(orient='records')
-        inning2_data_json = inning2_data[['current_ball_number', 'actual_outcome', 'predicted_current_score']].to_dict(orient='records')
+        inning1_data_json = inning1_data[['current_ball_number', 'cumulative_actual_runs', 'predicted_current_score']].to_dict(orient='records')
+        inning2_data_json = inning2_data[['current_ball_number', 'cumulative_actual_runs', 'predicted_current_score']].to_dict(orient='records')
 
         # Prepare data for sending to frontend
         response_data = {
@@ -304,4 +304,5 @@ class PlotDataAPIView(APIView):
         }
 
         return Response(response_data, status=status.HTTP_200_OK)
+    
 
