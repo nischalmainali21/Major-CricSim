@@ -176,14 +176,15 @@ class PredictionAPIView(APIView):
             balls_data = {}
 
             # Iterate through each ball in the over
+            ball_number = 1
             for i, row in group.iterrows():
                 ball_data = row.drop(['ID', 'innings', 'overs']).to_dict()
-                ball_number = i % 6 + 1  # Calculate the ball number
                 # Update cumulative runs for the over
                 cumulative_runs_actual += row['actual_outcome']  # Add actual outcome
                 cumulative_runs_predicted += row['predicted_outcome']  # Add predicted outcome
                 ball_data['ballnumber'] = ball_number
                 balls_data[str(ball_number)] = ball_data
+                ball_number += 1  # Increment ball number for the next ball
 
             # Construct over data dictionary
             over_data = {
