@@ -1,6 +1,7 @@
 from django.urls import path
-from .views import PredictionAPIView
+from .views import PredictionAPIView, PlotDataAPIView
 
 urlpatterns = [
-    path('predict/', PredictionAPIView.as_view(), name='predict'),
+    path('full_data/', PredictionAPIView.as_view(), name='full_data'),
+    path('plot_data/', PlotDataAPIView.as_view(), name='plot_data'),
 ]
