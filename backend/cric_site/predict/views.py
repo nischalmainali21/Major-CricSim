@@ -153,44 +153,43 @@ predicted_selected_match_df['predicted_current_score'] = predicted_selected_matc
 predicted_selected_match_df = predicted_selected_match_df.reset_index(drop=True)
 predicted_selected_match_df['current_ball_number'] = predicted_selected_match_df.groupby('innings').cumcount()
 
-
 class PredictionAPIView(APIView):
     def get(self, request):
         # Serialize the DataFrame to JSON
-        grouped = predicted_selected_match_df.groupby([predicted_selected_match_df['ID'].astype(str), predicted_selected_match_df['innings'].astype(str), predicted_selected_match_df['overs'].astype(str)])
-        result = {}
-        for name, group in grouped:
-            idx, inning, over = name
-            if idx not in result:
-                result[idx] = {}
-            if inning not in result[idx]:
-                result[idx][inning] = {}
-            if over not in result[idx][inning]:
-                result[idx][inning][over] = {}
-            
-            # Convert each row to a dictionary with ballnumber as key
-            ball_number_data = {}
-            for index, row in group.iterrows():
-                ball_number = row['ballnumber']
-                ball_data = row.drop(['ID', 'innings', 'overs', 'ballnumber']).to_dict()
-                ball_number_data[ball_number] = ball_data
-            
-            # Convert the rest of the columns into a dictionary under ballnumber key
-            result[idx][inning][over] = ball_number_data
-        formatted_json = json.dumps(result)
-        formatted_data = json.loads(formatted_json)
-
+        grouped = predicted_selected_match_df.groupby(['ID', 'innings', 'overs'])
         response_data = {}
 
-        # Iterate over each ID
-        for idx, innings_data in formatted_data.items():
-            response_data[idx] = {}  # Initialize inning data for the current ID
-            # Iterate over each inning
-            for inning, overs_data in innings_data.items():
-                response_data[idx][inning] = overs_data  # Add overs data to the response data for the current inning
+        for name, group in grouped:
+            idx, inning, over = name
+            # Convert keys to str
+            idx = str(idx)
+            inning = str(inning)
+            over = str(over)
+            if idx not in response_data:
+                response_data[idx] = {}
+            if inning not in response_data[idx]:
+                response_data[idx][inning] = {}
 
-        # Now 'response_data' contains the data grouped by inning for each ID
+            # Initialize cumulative runs for the over
+            cumulative_runs_actual = 0
+            cumulative_runs_predicted = 0
+            over_data = []
+
+            # Iterate through each ball in the over
+            for _, row in group.iterrows():
+                ball_data = row.drop(['ID', 'innings', 'overs']).to_dict()
+                # Calculate the cumulative runs for the over
+                cumulative_runs_actual += row['actual_outcome']  # Add actual outcome
+                cumulative_runs_predicted += row['predicted_outcome']  # Add predicted outcome
+                ball_data['over_runs_actual'] = cumulative_runs_actual
+                ball_data['over_runs_predicted'] = cumulative_runs_predicted
+                over_data.append(ball_data)
+
+            # Add the over data to the response
+            response_data[idx][inning][over] = over_data
+
         return Response(response_data)
+
 
 class PlotDataAPIView(APIView):
     def get(self, request):
@@ -264,6 +263,7 @@ class PlotDataAPIView(APIView):
         actual_winning_team = list(m_df['WinningTeam'].unique())[0]
         team_1 = list(m_inning1_data['BattingTeam'].unique())[0]
         team_2 = list(m_inning2_data['BattingTeam'].unique())[0]
+        season = list(m_inning1_data['Season'].unique())[0]
         predicted_winning_team = team_1 if inning1_predicted_total_run > inning2_predicted_total_run else team_2
         
         inning1_data['cumulative_actual_runs'] = inning1_data['actual_outcome'].cumsum()
@@ -282,6 +282,7 @@ class PlotDataAPIView(APIView):
             'inning1_predicted_total_run': inning1_predicted_total_run,
             'inning2_actual_total_run': inning2_actual_total_run,
             'inning2_predicted_total_run': inning2_predicted_total_run,
+            'season': season,
             'team_1': team_1,
             'team_2': team_2,
             'actual_winning_team': actual_winning_team,
@@ -290,4 +291,3 @@ class PlotDataAPIView(APIView):
 
         return Response(response_data, status=status.HTTP_200_OK)
     
-
