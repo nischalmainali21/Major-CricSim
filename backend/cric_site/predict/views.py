@@ -10,7 +10,8 @@ from torch.utils.data import DataLoader, TensorDataset
 import torch.nn as nn
 import json
 import numpy as np
-
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
+import random
 
 # Load model
 model = MyLSTMWithSoftmax(96, 64, 8)
@@ -18,7 +19,6 @@ state_dict = torch.load("static_folder/cric_model_2nd.pth")
 model.load_state_dict(state_dict)
 
 # Importing Prediction Data
-import pandas as pd
 df = pd.read_csv('static_folder/final_stats_data.csv', low_memory=False)
 df['delivery_type'] = df['total_run'].astype(str)
 
@@ -30,8 +30,6 @@ clean_df.drop(['non-striker', 'extra_type',
        'WonBy', 'Margin', 'method','Player_of_Match',
        'Team1Players', 'Team2Players', 'Umpire1', 'Umpire2',
        'WinningTeam', 'Team2','Date','Team1','Venue','TossWinner','batter','bowler'], axis = 1, inplace = True)
-
-from sklearn.preprocessing import OneHotEncoder
 
 # Assuming 'df' is your DataFrame
 columns_to_encode = ['Season', 'BattingTeam', 'BowlingTeam','delivery_type','TossDecision']
@@ -67,15 +65,11 @@ columns_to_scale = ['strike_rate_x', 'batting_average', 'strike_rate_y', 'bowlin
 clean_df[columns_to_scale] = clean_df[columns_to_scale].replace([np.inf, -np.inf], np.nan)
 clean_df[columns_to_scale] = clean_df[columns_to_scale].fillna(clean_df[columns_to_scale].median())
 
-from sklearn.preprocessing import MinMaxScaler
-
 # Initialize the scaler
 scaler = MinMaxScaler()
 
 # Fit and transform the selected columns
 clean_df[columns_to_scale] = scaler.fit_transform(clean_df[columns_to_scale])
-
-
 
 # Initialize an empty dictionary to store DataFrames corresponding to each unique ID
 id_dataframes = {}
@@ -111,14 +105,10 @@ features = selected_match_df[['innings', 'overs', 'ballnumber',
                                'BowlingTeam_Royal Challengers Bangalore', 'BowlingTeam_Sunrisers Hyderabad',
                                'TossDecision_bat', 'TossDecision_field']]
 # Convert to PyTorch tensor
-import numpy as np
+
 features_tensor = torch.tensor(features.to_numpy().reshape(1,-1,96).astype(np.float32))
 
-
-
 model.eval()
-
-import random
 predictions = []
 
 # Assuming features_tensor contains the entire match data
@@ -136,9 +126,6 @@ for i in range(features_tensor.size(1)):  # Iterate through each ball in the mat
                 our_predictions += 1
     predictions.append(our_predictions)
     
-    
-
-
 predicted_selected_match_df = selected_match_df.copy()
 predicted_selected_match_df['predicted_outcome'] = predictions
 
@@ -155,6 +142,7 @@ column_mapping = {
 delivery_type_columns = ['delivery_type_0', 'delivery_type_1', 'delivery_type_2',
 'delivery_type_3', 'delivery_type_4',
 'delivery_type_5', 'delivery_type_6', 'delivery_type_7']
+
 predicted_selected_match_df['actual_outcome'] = (
     predicted_selected_match_df[delivery_type_columns].apply(lambda row: sum(row[col] * column_mapping[col] for col in delivery_type_columns), axis=1)
 )
@@ -162,50 +150,47 @@ predicted_selected_match_df['actual_outcome'] = (
 predicted_selected_match_df['predicted_current_score'] = predicted_selected_match_df.groupby(['ID', 'innings'])['predicted_outcome'].cumsum()
 
 # Reset the index if needed
-
 predicted_selected_match_df = predicted_selected_match_df.reset_index(drop=True)
-
 predicted_selected_match_df['current_ball_number'] = predicted_selected_match_df.groupby('innings').cumcount()
-
-
-
-
-
-
 
 
 class PredictionAPIView(APIView):
     def get(self, request):
-        # Group the DataFrame by specific columns to organize the data
-        grouped = predicted_selected_match_df.groupby(['ID', 'innings', 'overs'])
-
-        # Dictionary to store the renamed match IDs and their corresponding data
-        renamed_result = {}
-
-        # Iterate through each group
+        # Serialize the DataFrame to JSON
+        grouped = predicted_selected_match_df.groupby([predicted_selected_match_df['ID'].astype(str), predicted_selected_match_df['innings'].astype(str), predicted_selected_match_df['overs'].astype(str)])
+        result = {}
         for name, group in grouped:
             idx, inning, over = name
-            match_data = group.to_dict(orient='records')
+            if idx not in result:
+                result[idx] = {}
+            if inning not in result[idx]:
+                result[idx][inning] = {}
+            if over not in result[idx][inning]:
+                result[idx][inning][over] = {}
+            
+            # Convert each row to a dictionary with ballnumber as key
+            ball_number_data = {}
+            for index, row in group.iterrows():
+                ball_number = row['ballnumber']
+                ball_data = row.drop(['ID', 'innings', 'overs', 'ballnumber']).to_dict()
+                ball_number_data[ball_number] = ball_data
+            
+            # Convert the rest of the columns into a dictionary under ballnumber key
+            result[idx][inning][over] = ball_number_data
+        formatted_json = json.dumps(result)
+        formatted_data = json.loads(formatted_json)
 
-            # Extract batting and bowling team names
-            batting_team = None
-            bowling_team = None
+        response_data = {}
 
-            for data in match_data:
-                for key, value in data.items():
-                    if key.startswith('BattingTeam_') and value == 1.0:
-                        batting_team = key.split('_')[1]
-                    elif key.startswith('BowlingTeam_') and value == 1.0:
-                        bowling_team = key.split('_')[1]
+        # Iterate over each ID
+        for idx, innings_data in formatted_data.items():
+            response_data[idx] = {}  # Initialize inning data for the current ID
+            # Iterate over each inning
+            for inning, overs_data in innings_data.items():
+                response_data[idx][inning] = overs_data  # Add overs data to the response data for the current inning
 
-            # Construct the renamed match ID if both teams are found
-            if batting_team and bowling_team:
-                renamed_match_id = f"{batting_team} vs {bowling_team}"
-                renamed_result[renamed_match_id] = match_data
-
-        return Response(renamed_result, status=status.HTTP_200_OK)
-    
-
+        # Now 'response_data' contains the data grouped by inning for each ID
+        return Response(response_data)
 
 class PlotDataAPIView(APIView):
     def get(self, request):
@@ -305,3 +290,4 @@ class PlotDataAPIView(APIView):
 
         return Response(response_data, status=status.HTTP_200_OK)
     
+
