@@ -167,71 +167,12 @@ predicted_selected_match_df = predicted_selected_match_df.reset_index(drop=True)
 
 predicted_selected_match_df['current_ball_number'] = predicted_selected_match_df.groupby('innings').cumcount()
 
-import matplotlib.pyplot as plt
-
-# Separate data for each inning
-inning1_data = predicted_selected_match_df[predicted_selected_match_df['innings'] == 1]
-inning2_data = predicted_selected_match_df[predicted_selected_match_df['innings'] == 2]
-
-
-inning1_actual_total_run = inning1_data['actual_outcome'].sum()
-inning1_predicted_total_run = inning1_data['predicted_outcome'].sum()
-
-inning2_actual_total_run = inning2_data['actual_outcome'].sum()
-inning2_predicted_total_run = inning2_data['predicted_outcome'].sum()
-
-m_df = df
-m_df = m_df[m_df['ID'] == selected_match_id]
-m_inning1_data = m_df[m_df['innings'] == 1]
-m_inning2_data = m_df[m_df['innings'] == 2]
-actual_winning_team = list(m_df['WinningTeam'].unique())[0]
-team_1 = list(m_inning1_data['BattingTeam'].unique())[0]
-team_2 = list(m_inning2_data['BattingTeam'].unique())[0]
-predicted_winning_team = team_1 if inning1_predicted_total_run > inning2_predicted_total_run else team_2
 
 
 
-# class PredictionAPIView(APIView):
-#     def get(self, request):
-#         # Serialize the DataFrame to JSON
-#         grouped = predicted_selected_match_df.groupby([predicted_selected_match_df['ID'].astype(str), predicted_selected_match_df['innings'].astype(str), predicted_selected_match_df['overs'].astype(str)])
-#         result = {}
-#         for name, group in grouped:
-#             idx, inning, over = name
-#             if idx not in result:
-#                 result[idx] = {}
-#             if inning not in result[idx]:
-#                 result[idx][inning] = {}
-#             if over not in result[idx][inning]:
-#                 result[idx][inning][over] = {}
-            
-#             # Convert each row to a dictionary with ballnumber as key
-#             ball_number_data = {}
-#             for index, row in group.iterrows():
-#                 ball_number = row['ballnumber']
-#                 ball_data = row.drop(['ID', 'innings', 'overs', 'ballnumber']).to_dict()
-#                 ball_number_data[ball_number] = ball_data
-            
-#             # Convert the rest of the columns into a dictionary under ballnumber key
-#             result[idx][inning][over] = ball_number_data
-#         formatted_json = json.dumps(result)
-#         formatted_data = json.loads(formatted_json)
 
-#         response_data = {}
 
-#         # Iterate over each ID
-#         for idx, innings_data in formatted_data.items():
-#             response_data[idx] = {}  # Initialize inning data for the current ID
-#             # Iterate over each inning
-#             for inning, overs_data in innings_data.items():
-#                 response_data[idx][inning] = overs_data  # Add overs data to the response data for the current inning
 
-#         # Now 'response_data' contains the data grouped by inning for each ID
-#         return Response(response_data)
-
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
 
 class PredictionAPIView(APIView):
     def get(self, request):
@@ -263,3 +204,104 @@ class PredictionAPIView(APIView):
                 renamed_result[renamed_match_id] = match_data
 
         return Response(renamed_result, status=status.HTTP_200_OK)
+    
+
+
+class PlotDataAPIView(APIView):
+    def get(self, request):
+        
+        predicted_selected_match_df = selected_match_df.copy()
+        predicted_selected_match_df['predicted_outcome'] = predictions
+
+        column_mapping = {
+        'delivery_type_0': 0,
+        'delivery_type_1': 1,
+        'delivery_type_2': 2,
+        'delivery_type_3': 3,
+        'delivery_type_4': 4,
+        'delivery_type_5': 5,
+        'delivery_type_6': 6,
+        'delivery_type_7': 7,
+        }
+        delivery_type_columns = ['delivery_type_0', 'delivery_type_1', 'delivery_type_2',
+        'delivery_type_3', 'delivery_type_4',
+        'delivery_type_5', 'delivery_type_6', 'delivery_type_7']
+        predicted_selected_match_df['actual_outcome'] = (
+            predicted_selected_match_df[delivery_type_columns].apply(lambda row: sum(row[col] * column_mapping[col] for col in delivery_type_columns), axis=1)
+        )
+
+        predicted_selected_match_df['predicted_current_score'] = predicted_selected_match_df.groupby(['ID', 'innings'])['predicted_outcome'].cumsum()
+
+        # Reset the index if needed
+
+        predicted_selected_match_df = predicted_selected_match_df.reset_index(drop=True)
+
+        predicted_selected_match_df['current_ball_number'] = predicted_selected_match_df.groupby('innings').cumcount()
+
+        column_mapping = {
+            'delivery_type_0': 0,
+            'delivery_type_1': 1,
+            'delivery_type_2': 2,
+            'delivery_type_3': 3,
+            'delivery_type_4': 4,
+            'delivery_type_5': 5,
+            'delivery_type_6': 6,
+            'delivery_type_7': 7,
+        }
+        delivery_type_columns = ['delivery_type_0', 'delivery_type_1', 'delivery_type_2',
+                                'delivery_type_3', 'delivery_type_4',
+                                'delivery_type_5', 'delivery_type_6', 'delivery_type_7']
+        predicted_selected_match_df['actual_outcome'] = (
+            predicted_selected_match_df[delivery_type_columns].apply(lambda row: sum(row[col] * column_mapping[col] for col in delivery_type_columns), axis=1)
+        )
+
+        predicted_selected_match_df['predicted_current_score'] = predicted_selected_match_df.groupby(['ID', 'innings'])['predicted_outcome'].cumsum()
+
+        predicted_selected_match_df = predicted_selected_match_df.reset_index(drop=True)
+
+        predicted_selected_match_df['current_ball_number'] = predicted_selected_match_df.groupby('innings').cumcount()
+
+        # Separate data for each inning
+        inning1_data = predicted_selected_match_df[predicted_selected_match_df['innings'] == 1]
+        inning2_data = predicted_selected_match_df[predicted_selected_match_df['innings'] == 2]
+
+        inning1_actual_total_run = inning1_data['actual_outcome'].sum()
+        inning1_predicted_total_run = inning1_data['predicted_outcome'].sum()
+
+        inning2_actual_total_run = inning2_data['actual_outcome'].sum()
+        inning2_predicted_total_run = inning2_data['predicted_outcome'].sum()
+
+        # Read final stats data
+        m_df = df.copy()
+        m_df = m_df[m_df['ID'] == selected_match_id]
+        m_inning1_data = m_df[m_df['innings'] == 1]
+        m_inning2_data = m_df[m_df['innings'] == 2]
+        actual_winning_team = list(m_df['WinningTeam'].unique())[0]
+        team_1 = list(m_inning1_data['BattingTeam'].unique())[0]
+        team_2 = list(m_inning2_data['BattingTeam'].unique())[0]
+        predicted_winning_team = team_1 if inning1_predicted_total_run > inning2_predicted_total_run else team_2
+        
+        inning1_data['cumulative_actual_runs'] = inning1_data['actual_outcome'].cumsum()
+        inning2_data['cumulative_actual_runs'] = inning2_data['actual_outcome'].cumsum()
+        inning1_data['cumulative_predicted_runs'] = inning1_data['predicted_current_score']
+        inning2_data['cumulative_predicted_runs'] = inning2_data['predicted_current_score']
+        
+        inning1_data_json = inning1_data[['current_ball_number', 'actual_outcome', 'predicted_current_score']].to_dict(orient='records')
+        inning2_data_json = inning2_data[['current_ball_number', 'actual_outcome', 'predicted_current_score']].to_dict(orient='records')
+
+        # Prepare data for sending to frontend
+        response_data = {
+            'inning1_data': inning1_data_json,
+            'inning2_data': inning2_data_json,
+            'inning1_actual_total_run': inning1_actual_total_run,
+            'inning1_predicted_total_run': inning1_predicted_total_run,
+            'inning2_actual_total_run': inning2_actual_total_run,
+            'inning2_predicted_total_run': inning2_predicted_total_run,
+            'team_1': team_1,
+            'team_2': team_2,
+            'actual_winning_team': actual_winning_team,
+            'predicted_winning_team': predicted_winning_team
+        }
+
+        return Response(response_data, status=status.HTTP_200_OK)
+
