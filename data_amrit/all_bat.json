@@ -1,5 +1,5 @@
 {
-  "A Ashish Reddy": {
+  "a ashish reddy": {
     "batter_id": 154,
     "Active Ratio_death": 0.75,
     "Striking Ratio_death": 0.219047619,
@@ -14,7 +14,7 @@
     "True SR_powerplay": 27.47747748,
     "True Avg_powerplay": 15.5
   },
-  "A Badoni": {
+  "a badoni": {
     "batter_id": 144,
     "Active Ratio_death": 0.707692308,
     "Striking Ratio_death": 0.260869565,
@@ -29,7 +29,7 @@
     "True SR_powerplay": 70.1754386,
     "True Avg_powerplay": 8.428571429
   },
-  "A Chopra": {
+  "a chopra": {
     "batter_id": 635,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.0,
@@ -44,7 +44,7 @@
     "True SR_powerplay": 18.20378574,
     "True Avg_powerplay": 3.2
   },
-  "A Flintoff": {
+  "a flintoff": {
     "batter_id": 37,
     "Active Ratio_death": 0.764705882,
     "Striking Ratio_death": 0.230769231,
@@ -59,7 +59,7 @@
     "True SR_powerplay": 22.00956938,
     "True Avg_powerplay": 6.0
   },
-  "A Manohar": {
+  "a manohar": {
     "batter_id": 261,
     "Active Ratio_death": 0.625,
     "Striking Ratio_death": 0.347826087,
@@ -74,7 +74,7 @@
     "True SR_powerplay": 2.777777778,
     "True Avg_powerplay": 0.333333333
   },
-  "A Mishra": {
+  "a mishra": {
     "batter_id": 235,
     "Active Ratio_death": 0.6367713,
     "Striking Ratio_death": 0.143646409,
@@ -89,7 +89,7 @@
     "True SR_powerplay": 85.26315789,
     "True Avg_powerplay": 12.33333333
   },
-  "A Mukund": {
+  "a mukund": {
     "batter_id": 192,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -104,7 +104,7 @@
     "True SR_powerplay": 47.69230769,
     "True Avg_powerplay": 41.0
   },
-  "A Symonds": {
+  "a symonds": {
     "batter_id": 50,
     "Active Ratio_death": 0.758426966,
     "Striking Ratio_death": 0.276422764,
@@ -119,7 +119,7 @@
     "True SR_powerplay": 24.33862434,
     "True Avg_powerplay": 53.65714286
   },
-  "AA Bilakhia": {
+  "aa bilakhia": {
     "batter_id": 300,
     "Active Ratio_death": 0.741935484,
     "Striking Ratio_death": 0.125,
@@ -134,7 +134,7 @@
     "True SR_powerplay": 66.15732881,
     "True Avg_powerplay": 9.0
   },
-  "AA Jhunjhunwala": {
+  "aa jhunjhunwala": {
     "batter_id": 16,
     "Active Ratio_death": 0.673469388,
     "Striking Ratio_death": 0.27027027,
@@ -149,7 +149,7 @@
     "True SR_powerplay": 29.96331023,
     "True Avg_powerplay": 9.6875
   },
-  "AB Agarkar": {
+  "ab agarkar": {
     "batter_id": 288,
     "Active Ratio_death": 0.786516854,
     "Striking Ratio_death": 0.181818182,
@@ -164,7 +164,7 @@
     "True SR_powerplay": 29.45590994,
     "True Avg_powerplay": 3.0
   },
-  "AB Barath": {
+  "ab barath": {
     "batter_id": 620,
     "Active Ratio_death": 0.4,
     "Striking Ratio_death": 0.0,
@@ -179,7 +179,7 @@
     "True SR_powerplay": 17.09401709,
     "True Avg_powerplay": 38.0
   },
-  "AB McDonald": {
+  "ab mcdonald": {
     "batter_id": 131,
     "Active Ratio_death": 0.725806452,
     "Striking Ratio_death": 0.152173913,
@@ -194,7 +194,7 @@
     "True SR_powerplay": 42.34234234,
     "True Avg_powerplay": 7.0
   },
-  "AB de Villiers": {
+  "ab de villiers": {
     "batter_id": 209,
     "Active Ratio_death": 0.81242236,
     "Striking Ratio_death": 0.613636364,
@@ -209,7 +209,7 @@
     "True SR_powerplay": 0.597492845,
     "True Avg_powerplay": 12.97560349
   },
-  "AC Gilchrist": {
+  "ac gilchrist": {
     "batter_id": 147,
     "Active Ratio_death": 0.851851852,
     "Striking Ratio_death": 0.588235294,
@@ -224,7 +224,7 @@
     "True SR_powerplay": 17.63512602,
     "True Avg_powerplay": 0.315616798
   },
-  "AC Voges": {
+  "ac voges": {
     "batter_id": 422,
     "Active Ratio_death": 0.843137255,
     "Striking Ratio_death": 0.264705882,
@@ -239,7 +239,7 @@
     "True SR_powerplay": 27.62762763,
     "True Avg_powerplay": 2.75
   },
-  "AD Mascarenhas": {
+  "ad mascarenhas": {
     "batter_id": 443,
     "Active Ratio_death": 0.75,
     "Striking Ratio_death": 0.103448276,
@@ -254,7 +254,7 @@
     "True SR_powerplay": 117.9487179,
     "True Avg_powerplay": 4.0
   },
-  "AD Mathews": {
+  "ad mathews": {
     "batter_id": 574,
     "Active Ratio_death": 0.747252747,
     "Striking Ratio_death": 0.256544503,
@@ -269,7 +269,7 @@
     "True SR_powerplay": 26.04489164,
     "True Avg_powerplay": 1.4
   },
-  "AD Nath": {
+  "ad nath": {
     "batter_id": 591,
     "Active Ratio_death": 0.48,
     "Striking Ratio_death": 0.142857143,
@@ -284,7 +284,7 @@
     "True SR_powerplay": 0.0,
     "True Avg_powerplay": 7.75
   },
-  "AD Russell": {
+  "ad russell": {
     "batter_id": 28,
     "Active Ratio_death": 0.657794677,
     "Striking Ratio_death": 0.482352941,
@@ -299,7 +299,7 @@
     "True SR_powerplay": 115.8600149,
     "True Avg_powerplay": 23.0
   },
-  "AJ Finch": {
+  "aj finch": {
     "batter_id": 67,
     "Active Ratio_death": 0.701149425,
     "Striking Ratio_death": 0.315789474,
@@ -314,7 +314,7 @@
     "True SR_powerplay": 1.73087563,
     "True Avg_powerplay": 3.140447154
   },
-  "AK Markram": {
+  "ak markram": {
     "batter_id": 360,
     "Active Ratio_death": 0.818181818,
     "Striking Ratio_death": 0.384615385,
@@ -329,7 +329,7 @@
     "True SR_powerplay": 28.63984674,
     "True Avg_powerplay": 7.933333333
   },
-  "AL Menaria": {
+  "al menaria": {
     "batter_id": 397,
     "Active Ratio_death": 0.61038961,
     "Striking Ratio_death": 0.186440678,
@@ -344,7 +344,7 @@
     "True SR_powerplay": 7.75862069,
     "True Avg_powerplay": 17.0
   },
-  "AM Nayar": {
+  "am nayar": {
     "batter_id": 79,
     "Active Ratio_death": 0.735135135,
     "Striking Ratio_death": 0.344262295,
@@ -359,7 +359,7 @@
     "True SR_powerplay": 13.04347826,
     "True Avg_powerplay": 1.434782609
   },
-  "AM Rahane": {
+  "am rahane": {
     "batter_id": 366,
     "Active Ratio_death": 0.766233766,
     "Striking Ratio_death": 0.266055046,
@@ -374,7 +374,7 @@
     "True SR_powerplay": 4.102052633,
     "True Avg_powerplay": 2.207792208
   },
-  "AP Majumdar": {
+  "ap majumdar": {
     "batter_id": 150,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.0,
@@ -389,7 +389,7 @@
     "True SR_powerplay": 36.30136986,
     "True Avg_powerplay": 9.142857143
   },
-  "AP Tare": {
+  "ap tare": {
     "batter_id": 171,
     "Active Ratio_death": 0.653846154,
     "Striking Ratio_death": 0.352941176,
@@ -404,7 +404,7 @@
     "True SR_powerplay": 1.020408163,
     "True Avg_powerplay": 5.282051282
   },
-  "AR Patel": {
+  "ar patel": {
     "batter_id": 459,
     "Active Ratio_death": 0.751173709,
     "Striking Ratio_death": 0.236245955,
@@ -419,7 +419,7 @@
     "True SR_powerplay": 72.67628205,
     "True Avg_powerplay": 9.133333333
   },
-  "AS Raut": {
+  "as raut": {
     "batter_id": 86,
     "Active Ratio_death": 0.640776699,
     "Striking Ratio_death": 0.141176471,
@@ -434,7 +434,7 @@
     "True SR_powerplay": 19.36936937,
     "True Avg_powerplay": 11.0
   },
-  "AT Rayudu": {
+  "at rayudu": {
     "batter_id": 9,
     "Active Ratio_death": 0.768,
     "Striking Ratio_death": 0.33411215,
@@ -449,7 +449,7 @@
     "True SR_powerplay": 0.595680839,
     "True Avg_powerplay": 16.46805195
   },
-  "AUK Pathan": {
+  "auk pathan": {
     "batter_id": 543,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.428571429,
@@ -464,7 +464,7 @@
     "True SR_powerplay": 190.8108108,
     "True Avg_powerplay": 3.0
   },
-  "Abdul Samad": {
+  "abdul samad": {
     "batter_id": 472,
     "Active Ratio_death": 0.652631579,
     "Striking Ratio_death": 0.28125,
@@ -479,7 +479,7 @@
     "True SR_powerplay": 50.0,
     "True Avg_powerplay": 28.0
   },
-  "Abhishek Sharma": {
+  "abhishek sharma": {
     "batter_id": 642,
     "Active Ratio_death": 0.735632184,
     "Striking Ratio_death": 0.227272727,
@@ -494,7 +494,7 @@
     "True SR_powerplay": 12.85910022,
     "True Avg_powerplay": 3.31547619
   },
-  "Anirudh Singh": {
+  "anirudh singh": {
     "batter_id": 156,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.1,
@@ -509,7 +509,7 @@
     "True SR_powerplay": 18.94736842,
     "True Avg_powerplay": 9.0
   },
-  "Ankit Sharma": {
+  "ankit sharma": {
     "batter_id": 129,
     "Active Ratio_death": 0.705882353,
     "Striking Ratio_death": 0.192307692,
@@ -524,7 +524,7 @@
     "True SR_powerplay": 3.877790834,
     "True Avg_powerplay": 15.0
   },
-  "Anuj Rawat": {
+  "anuj rawat": {
     "batter_id": 314,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.5,
@@ -539,7 +539,7 @@
     "True SR_powerplay": 3.747795414,
     "True Avg_powerplay": 4.640350877
   },
-  "Azhar Mahmood": {
+  "azhar mahmood": {
     "batter_id": 473,
     "Active Ratio_death": 0.571428571,
     "Striking Ratio_death": 0.272727273,
@@ -554,7 +554,7 @@
     "True SR_powerplay": 7.52688172,
     "True Avg_powerplay": 3.818181818
   },
-  "B Chipli": {
+  "b chipli": {
     "batter_id": 354,
     "Active Ratio_death": 0.821428571,
     "Striking Ratio_death": 0.378378378,
@@ -569,7 +569,7 @@
     "True SR_powerplay": 29.93797076,
     "True Avg_powerplay": 13.54761905
   },
-  "B Sai Sudharsan": {
+  "b sai sudharsan": {
     "batter_id": 453,
     "Active Ratio_death": 0.75,
     "Striking Ratio_death": 0.3,
@@ -584,7 +584,7 @@
     "True SR_powerplay": 16.07017544,
     "True Avg_powerplay": 1.2
   },
-  "BA Stokes": {
+  "ba stokes": {
     "batter_id": 82,
     "Active Ratio_death": 0.75862069,
     "Striking Ratio_death": 0.328947368,
@@ -599,7 +599,7 @@
     "True SR_powerplay": 1.718531817,
     "True Avg_powerplay": 3.042857143
   },
-  "BB McCullum": {
+  "bb mccullum": {
     "batter_id": 441,
     "Active Ratio_death": 0.819148936,
     "Striking Ratio_death": 0.383333333,
@@ -614,7 +614,7 @@
     "True SR_powerplay": 3.178038892,
     "True Avg_powerplay": 5.665248545
   },
-  "BB Samantray": {
+  "bb samantray": {
     "batter_id": 217,
     "Active Ratio_death": 0.75862069,
     "Striking Ratio_death": 0.285714286,
@@ -629,7 +629,7 @@
     "True SR_powerplay": 10.90225564,
     "True Avg_powerplay": 8.428571429
   },
-  "BJ Hodge": {
+  "bj hodge": {
     "batter_id": 471,
     "Active Ratio_death": 0.770718232,
     "Striking Ratio_death": 0.317991632,
@@ -644,7 +644,7 @@
     "True SR_powerplay": 15.80179242,
     "True Avg_powerplay": 4.029649596
   },
-  "BJ Rohrer": {
+  "bj rohrer": {
     "batter_id": 196,
     "Active Ratio_death": 0.852941176,
     "Striking Ratio_death": 0.631578947,
@@ -659,7 +659,7 @@
     "True SR_powerplay": 122.7272727,
     "True Avg_powerplay": 18.0
   },
-  "C Munro": {
+  "c munro": {
     "batter_id": 500,
     "Active Ratio_death": 0.6,
     "Striking Ratio_death": 0.0,
@@ -674,7 +674,7 @@
     "True SR_powerplay": 7.60056755,
     "True Avg_powerplay": 4.431818182
   },
-  "C de Grandhomme": {
+  "c de grandhomme": {
     "batter_id": 275,
     "Active Ratio_death": 0.678899083,
     "Striking Ratio_death": 0.197530864,
@@ -689,7 +689,7 @@
     "True SR_powerplay": 86.11111111,
     "True Avg_powerplay": 15.33333333
   },
-  "CA Ingram": {
+  "ca ingram": {
     "batter_id": 291,
     "Active Ratio_death": 0.69047619,
     "Striking Ratio_death": 0.3,
@@ -704,7 +704,7 @@
     "True SR_powerplay": 20.60810811,
     "True Avg_powerplay": 3.142857143
   },
-  "CA Lynn": {
+  "ca lynn": {
     "batter_id": 242,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.12,
@@ -719,7 +719,7 @@
     "True SR_powerplay": 6.131314668,
     "True Avg_powerplay": 13.97058824
   },
-  "CA Pujara": {
+  "ca pujara": {
     "batter_id": 282,
     "Active Ratio_death": 0.609756098,
     "Striking Ratio_death": 0.147058824,
@@ -734,7 +734,7 @@
     "True SR_powerplay": 12.45780004,
     "True Avg_powerplay": 0.810344828
   },
-  "CH Gayle": {
+  "ch gayle": {
     "batter_id": 428,
     "Active Ratio_death": 0.745387454,
     "Striking Ratio_death": 0.485875706,
@@ -749,7 +749,7 @@
     "True SR_powerplay": 15.7201925,
     "True Avg_powerplay": 3.71040724
   },
-  "CH Morris": {
+  "ch morris": {
     "batter_id": 103,
     "Active Ratio_death": 0.753378378,
     "Striking Ratio_death": 0.293532338,
@@ -764,7 +764,7 @@
     "True SR_powerplay": 121.1711712,
     "True Avg_powerplay": 2.0
   },
-  "CJ Anderson": {
+  "cj anderson": {
     "batter_id": 504,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.323943662,
@@ -779,7 +779,7 @@
     "True SR_powerplay": 7.064676617,
     "True Avg_powerplay": 2.172413793
   },
-  "CJ Ferguson": {
+  "cj ferguson": {
     "batter_id": 408,
     "Active Ratio_death": 0.565217391,
     "Striking Ratio_death": 0.157894737,
@@ -794,7 +794,7 @@
     "True SR_powerplay": 12.04954955,
     "True Avg_powerplay": 6.777777778
   },
-  "CL White": {
+  "cl white": {
     "batter_id": 31,
     "Active Ratio_death": 0.837696335,
     "Striking Ratio_death": 0.338461538,
@@ -809,7 +809,7 @@
     "True SR_powerplay": 0.782437576,
     "True Avg_powerplay": 0.301242236
   },
-  "CM Gautam": {
+  "cm gautam": {
     "batter_id": 218,
     "Active Ratio_death": 0.634146341,
     "Striking Ratio_death": 0.3,
@@ -824,7 +824,7 @@
     "True SR_powerplay": 5.211304122,
     "True Avg_powerplay": 11.23333333
   },
-  "D Padikkal": {
+  "d padikkal": {
     "batter_id": 238,
     "Active Ratio_death": 0.641509434,
     "Striking Ratio_death": 0.219512195,
@@ -839,7 +839,7 @@
     "True SR_powerplay": 2.517506575,
     "True Avg_powerplay": 6.086549708
   },
-  "DA Miller": {
+  "da miller": {
     "batter_id": 11,
     "Active Ratio_death": 0.769366197,
     "Striking Ratio_death": 0.36239782,
@@ -854,7 +854,7 @@
     "True SR_powerplay": 20.06108036,
     "True Avg_powerplay": 0.277777778
   },
-  "DA Warner": {
+  "da warner": {
     "batter_id": 33,
     "Active Ratio_death": 0.771428571,
     "Striking Ratio_death": 0.432291667,
@@ -869,7 +869,7 @@
     "True SR_powerplay": 10.47421376,
     "True Avg_powerplay": 8.209290227
   },
-  "DB Das": {
+  "db das": {
     "batter_id": 407,
     "Active Ratio_death": 0.703296703,
     "Striking Ratio_death": 0.2,
@@ -884,7 +884,7 @@
     "True SR_powerplay": 7.66405076,
     "True Avg_powerplay": 2.394736842
   },
-  "DB Ravi Teja": {
+  "db ravi teja": {
     "batter_id": 533,
     "Active Ratio_death": 0.719298246,
     "Striking Ratio_death": 0.25,
@@ -899,7 +899,7 @@
     "True SR_powerplay": 42.46727931,
     "True Avg_powerplay": 16.16666667
   },
-  "DJ Bravo": {
+  "dj bravo": {
     "batter_id": 363,
     "Active Ratio_death": 0.765285996,
     "Striking Ratio_death": 0.345794393,
@@ -914,7 +914,7 @@
     "True SR_powerplay": 8.147978022,
     "True Avg_powerplay": 9.731578947
   },
-  "DJ Hooda": {
+  "dj hooda": {
     "batter_id": 130,
     "Active Ratio_death": 0.735714286,
     "Striking Ratio_death": 0.207729469,
@@ -929,7 +929,7 @@
     "True SR_powerplay": 10.30277544,
     "True Avg_powerplay": 72.70588235
   },
-  "DJ Hussey": {
+  "dj hussey": {
     "batter_id": 542,
     "Active Ratio_death": 0.726457399,
     "Striking Ratio_death": 0.342281879,
@@ -944,7 +944,7 @@
     "True SR_powerplay": 18.71194803,
     "True Avg_powerplay": 30.46666667
   },
-  "DJG Sammy": {
+  "djg sammy": {
     "batter_id": 336,
     "Active Ratio_death": 0.641304348,
     "Striking Ratio_death": 0.246376812,
@@ -959,7 +959,7 @@
     "True SR_powerplay": 81.62162162,
     "True Avg_powerplay": 2.2
   },
-  "DP Conway": {
+  "dp conway": {
     "batter_id": 41,
     "Active Ratio_death": 0.866666667,
     "Striking Ratio_death": 0.272727273,
@@ -974,7 +974,7 @@
     "True SR_powerplay": 9.595959596,
     "True Avg_powerplay": 9.111111111
   },
-  "DPMD Jayawardene": {
+  "dpmd jayawardene": {
     "batter_id": 536,
     "Active Ratio_death": 0.765217391,
     "Striking Ratio_death": 0.322580645,
@@ -989,7 +989,7 @@
     "True SR_powerplay": 6.250358892,
     "True Avg_powerplay": 3.657054126
   },
-  "DR Martyn": {
+  "dr martyn": {
     "batter_id": 75,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.5,
@@ -1004,7 +1004,7 @@
     "True SR_powerplay": 46.15384615,
     "True Avg_powerplay": 30.0
   },
-  "DR Sams": {
+  "dr sams": {
     "batter_id": 416,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.157894737,
@@ -1019,7 +1019,7 @@
     "True SR_powerplay": 75.64102564,
     "True Avg_powerplay": 8.0
   },
-  "DR Smith": {
+  "dr smith": {
     "batter_id": 23,
     "Active Ratio_death": 0.691588785,
     "Striking Ratio_death": 0.269230769,
@@ -1034,7 +1034,7 @@
     "True SR_powerplay": 1.529187182,
     "True Avg_powerplay": 5.716049383
   },
-  "DT Christian": {
+  "dt christian": {
     "batter_id": 386,
     "Active Ratio_death": 0.706976744,
     "Striking Ratio_death": 0.198717949,
@@ -1049,7 +1049,7 @@
     "True SR_powerplay": 74.82876712,
     "True Avg_powerplay": 17.5
   },
-  "E Lewis": {
+  "e lewis": {
     "batter_id": 333,
     "Active Ratio_death": 0.631578947,
     "Striking Ratio_death": 0.384615385,
@@ -1064,7 +1064,7 @@
     "True SR_powerplay": 13.40879634,
     "True Avg_powerplay": 1.942307692
   },
-  "EJG Morgan": {
+  "ejg morgan": {
     "batter_id": 340,
     "Active Ratio_death": 0.713333333,
     "Striking Ratio_death": 0.328358209,
@@ -1079,7 +1079,7 @@
     "True SR_powerplay": 9.666185666,
     "True Avg_powerplay": 7.122807018
   },
-  "F du Plessis": {
+  "f du plessis": {
     "batter_id": 281,
     "Active Ratio_death": 0.781021898,
     "Striking Ratio_death": 0.401162791,
@@ -1094,7 +1094,7 @@
     "True SR_powerplay": 9.061560726,
     "True Avg_powerplay": 10.40108225
   },
-  "FY Fazal": {
+  "fy fazal": {
     "batter_id": 372,
     "Active Ratio_death": 0.71875,
     "Striking Ratio_death": 0.185185185,
@@ -1109,7 +1109,7 @@
     "True SR_powerplay": 17.73021182,
     "True Avg_powerplay": 5.555555556
   },
-  "G Gambhir": {
+  "g gambhir": {
     "batter_id": 478,
     "Active Ratio_death": 0.711956522,
     "Striking Ratio_death": 0.265625,
@@ -1124,7 +1124,7 @@
     "True SR_powerplay": 0.955623007,
     "True Avg_powerplay": 2.982155887
   },
-  "GC Smith": {
+  "gc smith": {
     "batter_id": 380,
     "Active Ratio_death": 0.769230769,
     "Striking Ratio_death": 0.4,
@@ -1139,7 +1139,7 @@
     "True SR_powerplay": 16.21455972,
     "True Avg_powerplay": 6.363095238
   },
-  "GD Phillips": {
+  "gd phillips": {
     "batter_id": 137,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.5,
@@ -1154,7 +1154,7 @@
     "True SR_powerplay": 47.22222222,
     "True Avg_powerplay": 4.25
   },
-  "GH Vihari": {
+  "gh vihari": {
     "batter_id": 447,
     "Active Ratio_death": 0.671641791,
     "Striking Ratio_death": 0.156862745,
@@ -1169,7 +1169,7 @@
     "True SR_powerplay": 34.14219391,
     "True Avg_powerplay": 1.027777778
   },
-  "GJ Bailey": {
+  "gj bailey": {
     "batter_id": 490,
     "Active Ratio_death": 0.810055866,
     "Striking Ratio_death": 0.350877193,
@@ -1184,7 +1184,7 @@
     "True SR_powerplay": 2.67342278,
     "True Avg_powerplay": 25.12121212
   },
-  "GJ Maxwell": {
+  "gj maxwell": {
     "batter_id": 92,
     "Active Ratio_death": 0.712280702,
     "Striking Ratio_death": 0.4,
@@ -1199,7 +1199,7 @@
     "True SR_powerplay": 11.82985383,
     "True Avg_powerplay": 2.107843137
   },
-  "Gurkeerat Singh": {
+  "gurkeerat singh": {
     "batter_id": 356,
     "Active Ratio_death": 0.737179487,
     "Striking Ratio_death": 0.313043478,
@@ -1214,7 +1214,7 @@
     "True SR_powerplay": 34.81717011,
     "True Avg_powerplay": 22.0
   },
-  "H Klaasen": {
+  "h klaasen": {
     "batter_id": 297,
     "Active Ratio_death": 0.774193548,
     "Striking Ratio_death": 0.227272727,
@@ -1229,7 +1229,7 @@
     "True SR_powerplay": 40.57971014,
     "True Avg_powerplay": 3.2
   },
-  "HH Gibbs": {
+  "hh gibbs": {
     "batter_id": 305,
     "Active Ratio_death": 0.863636364,
     "Striking Ratio_death": 0.25,
@@ -1244,7 +1244,7 @@
     "True SR_powerplay": 15.1820376,
     "True Avg_powerplay": 2.840277778
   },
-  "HH Pandya": {
+  "hh pandya": {
     "batter_id": 64,
     "Active Ratio_death": 0.72143975,
     "Striking Ratio_death": 0.357466063,
@@ -1259,7 +1259,7 @@
     "True SR_powerplay": 26.42302358,
     "True Avg_powerplay": 12.0
   },
-  "HM Amla": {
+  "hm amla": {
     "batter_id": 511,
     "Active Ratio_death": 0.78,
     "Striking Ratio_death": 0.777777778,
@@ -1274,7 +1274,7 @@
     "True SR_powerplay": 5.417946035,
     "True Avg_powerplay": 8.227272727
   },
-  "Harbhajan Singh": {
+  "harbhajan singh": {
     "batter_id": 627,
     "Active Ratio_death": 0.638190955,
     "Striking Ratio_death": 0.314685315,
@@ -1289,7 +1289,7 @@
     "True SR_powerplay": 13.9122807,
     "True Avg_powerplay": 3.933333333
   },
-  "IK Pathan": {
+  "ik pathan": {
     "batter_id": 292,
     "Active Ratio_death": 0.719339623,
     "Striking Ratio_death": 0.294520548,
@@ -1304,7 +1304,7 @@
     "True SR_powerplay": 20.35905271,
     "True Avg_powerplay": 9.843137255
   },
-  "IR Jaggi": {
+  "ir jaggi": {
     "batter_id": 115,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.0,
@@ -1319,7 +1319,7 @@
     "True SR_powerplay": 32.76550031,
     "True Avg_powerplay": 8.181818182
   },
-  "Ishan Kishan": {
+  "ishan kishan": {
     "batter_id": 560,
     "Active Ratio_death": 0.730769231,
     "Striking Ratio_death": 0.451219512,
@@ -1334,7 +1334,7 @@
     "True SR_powerplay": 0.118088651,
     "True Avg_powerplay": 27.99666667
   },
-  "J Botha": {
+  "j botha": {
     "batter_id": 494,
     "Active Ratio_death": 0.716666667,
     "Striking Ratio_death": 0.2,
@@ -1349,7 +1349,7 @@
     "True SR_powerplay": 8.085776116,
     "True Avg_powerplay": 25.8
   },
-  "JA Morkel": {
+  "ja morkel": {
     "batter_id": 348,
     "Active Ratio_death": 0.733502538,
     "Striking Ratio_death": 0.268551237,
@@ -1364,7 +1364,7 @@
     "True SR_powerplay": 55.04201681,
     "True Avg_powerplay": 6.7
   },
-  "JC Archer": {
+  "jc archer": {
     "batter_id": 427,
     "Active Ratio_death": 0.704761905,
     "Striking Ratio_death": 0.283783784,
@@ -1379,7 +1379,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JC Buttler": {
+  "jc buttler": {
     "batter_id": 553,
     "Active Ratio_death": 0.74137931,
     "Striking Ratio_death": 0.467625899,
@@ -1394,7 +1394,7 @@
     "True SR_powerplay": 16.78715471,
     "True Avg_powerplay": 18.06730769
   },
-  "JD Ryder": {
+  "jd ryder": {
     "batter_id": 589,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.263157895,
@@ -1409,7 +1409,7 @@
     "True SR_powerplay": 26.27729545,
     "True Avg_powerplay": 0.417004049
   },
-  "JEC Franklin": {
+  "jec franklin": {
     "batter_id": 34,
     "Active Ratio_death": 0.8,
     "Striking Ratio_death": 0.260869565,
@@ -1424,7 +1424,7 @@
     "True SR_powerplay": 10.0980101,
     "True Avg_powerplay": 9.523809524
   },
-  "JH Kallis": {
+  "jh kallis": {
     "batter_id": 527,
     "Active Ratio_death": 0.744493392,
     "Striking Ratio_death": 0.375838926,
@@ -1439,7 +1439,7 @@
     "True SR_powerplay": 1.670509345,
     "True Avg_powerplay": 2.673658733
   },
-  "JJ Roy": {
+  "jj roy": {
     "batter_id": 289,
     "Active Ratio_death": 0.727272727,
     "Striking Ratio_death": 0.4,
@@ -1454,7 +1454,7 @@
     "True SR_powerplay": 2.976901223,
     "True Avg_powerplay": 4.625
   },
-  "JM Bairstow": {
+  "jm bairstow": {
     "batter_id": 423,
     "Active Ratio_death": 0.612244898,
     "Striking Ratio_death": 0.166666667,
@@ -1469,7 +1469,7 @@
     "True SR_powerplay": 14.66054271,
     "True Avg_powerplay": 7.590277778
   },
-  "JM Kemp": {
+  "jm kemp": {
     "batter_id": 621,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.0,
@@ -1484,7 +1484,7 @@
     "True SR_powerplay": 27.77777778,
     "True Avg_powerplay": 6.5
   },
-  "JM Sharma": {
+  "jm sharma": {
     "batter_id": 124,
     "Active Ratio_death": 0.756097561,
     "Striking Ratio_death": 0.52,
@@ -1499,7 +1499,7 @@
     "True SR_powerplay": 27.02702703,
     "True Avg_powerplay": 14.66666667
   },
-  "JO Holder": {
+  "jo holder": {
     "batter_id": 52,
     "Active Ratio_death": 0.604651163,
     "Striking Ratio_death": 0.21,
@@ -1514,7 +1514,7 @@
     "True SR_powerplay": 38.59649123,
     "True Avg_powerplay": 1.333333333
   },
-  "JP Duminy": {
+  "jp duminy": {
     "batter_id": 373,
     "Active Ratio_death": 0.820717131,
     "Striking Ratio_death": 0.305882353,
@@ -1529,7 +1529,7 @@
     "True SR_powerplay": 3.403493059,
     "True Avg_powerplay": 21.74074074
   },
-  "JP Faulkner": {
+  "jp faulkner": {
     "batter_id": 232,
     "Active Ratio_death": 0.748175182,
     "Striking Ratio_death": 0.271276596,
@@ -1544,7 +1544,7 @@
     "True SR_powerplay": 17.74193548,
     "True Avg_powerplay": 8.863636364
   },
-  "JR Hopes": {
+  "jr hopes": {
     "batter_id": 530,
     "Active Ratio_death": 0.8,
     "Striking Ratio_death": 0.1875,
@@ -1559,7 +1559,7 @@
     "True SR_powerplay": 1.754385965,
     "True Avg_powerplay": 7.095238095
   },
-  "JR Philippe": {
+  "jr philippe": {
     "batter_id": 35,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.0,
@@ -1574,7 +1574,7 @@
     "True SR_powerplay": 14.88888889,
     "True Avg_powerplay": 1.833333333
   },
-  "K Goel": {
+  "k goel": {
     "batter_id": 606,
     "Active Ratio_death": 0.592592593,
     "Striking Ratio_death": 0.173913043,
@@ -1589,7 +1589,7 @@
     "True SR_powerplay": 24.56594228,
     "True Avg_powerplay": 15.4375
   },
-  "K Gowtham": {
+  "k gowtham": {
     "batter_id": 508,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 0.486486486,
@@ -1604,7 +1604,7 @@
     "True SR_powerplay": 32.97297297,
     "True Avg_powerplay": 15.5
   },
-  "K Rabada": {
+  "k rabada": {
     "batter_id": 432,
     "Active Ratio_death": 0.592592593,
     "Striking Ratio_death": 0.195121951,
@@ -1619,7 +1619,7 @@
     "True SR_powerplay": 27.19298246,
     "True Avg_powerplay": 3.6
   },
-  "KA Pollard": {
+  "ka pollard": {
     "batter_id": 352,
     "Active Ratio_death": 0.696785404,
     "Striking Ratio_death": 0.348897536,
@@ -1634,7 +1634,7 @@
     "True SR_powerplay": 4.534789644,
     "True Avg_powerplay": 1.18902439
   },
-  "KC Sangakkara": {
+  "kc sangakkara": {
     "batter_id": 157,
     "Active Ratio_death": 0.741666667,
     "Striking Ratio_death": 0.358974359,
@@ -1649,7 +1649,7 @@
     "True SR_powerplay": 3.059866962,
     "True Avg_powerplay": 9.978571429
   },
-  "KD Karthik": {
+  "kd karthik": {
     "batter_id": 44,
     "Active Ratio_death": 0.746606335,
     "Striking Ratio_death": 0.366438356,
@@ -1664,7 +1664,7 @@
     "True SR_powerplay": 9.557095833,
     "True Avg_powerplay": 21.99251701
   },
-  "KH Pandya": {
+  "kh pandya": {
     "batter_id": 561,
     "Active Ratio_death": 0.717647059,
     "Striking Ratio_death": 0.334782609,
@@ -1679,7 +1679,7 @@
     "True SR_powerplay": 57.26867336,
     "True Avg_powerplay": 9.066666667
   },
-  "KK Cooper": {
+  "kk cooper": {
     "batter_id": 650,
     "Active Ratio_death": 0.604651163,
     "Striking Ratio_death": 0.48,
@@ -1694,7 +1694,7 @@
     "True SR_powerplay": 205.5555556,
     "True Avg_powerplay": 45.0
   },
-  "KK Nair": {
+  "kk nair": {
     "batter_id": 93,
     "Active Ratio_death": 0.748344371,
     "Striking Ratio_death": 0.4,
@@ -1709,7 +1709,7 @@
     "True SR_powerplay": 5.96541104,
     "True Avg_powerplay": 5.593567251
   },
-  "KL Rahul": {
+  "kl rahul": {
     "batter_id": 480,
     "Active Ratio_death": 0.816438356,
     "Striking Ratio_death": 0.411504425,
@@ -1724,7 +1724,7 @@
     "True SR_powerplay": 1.78614677,
     "True Avg_powerplay": 22.46841379
   },
-  "KM Jadhav": {
+  "km jadhav": {
     "batter_id": 5,
     "Active Ratio_death": 0.69895288,
     "Striking Ratio_death": 0.229166667,
@@ -1739,7 +1739,7 @@
     "True SR_powerplay": 14.31547619,
     "True Avg_powerplay": 2.987068966
   },
-  "KP Pietersen": {
+  "kp pietersen": {
     "batter_id": 369,
     "Active Ratio_death": 0.782608696,
     "Striking Ratio_death": 0.354166667,
@@ -1754,7 +1754,7 @@
     "True SR_powerplay": 15.79803117,
     "True Avg_powerplay": 51.97083333
   },
-  "KS Bharat": {
+  "ks bharat": {
     "batter_id": 233,
     "Active Ratio_death": 0.842105263,
     "Striking Ratio_death": 0.181818182,
@@ -1769,7 +1769,7 @@
     "True SR_powerplay": 2.905466626,
     "True Avg_powerplay": 2.083333333
   },
-  "KS Williamson": {
+  "ks williamson": {
     "batter_id": 531,
     "Active Ratio_death": 0.833333333,
     "Striking Ratio_death": 0.322404372,
@@ -1784,7 +1784,7 @@
     "True SR_powerplay": 17.40348337,
     "True Avg_powerplay": 6.78957529
   },
-  "KV Sharma": {
+  "kv sharma": {
     "batter_id": 88,
     "Active Ratio_death": 0.68627451,
     "Striking Ratio_death": 0.201754386,
@@ -1799,7 +1799,7 @@
     "True SR_powerplay": 5.777777778,
     "True Avg_powerplay": 1.0
   },
-  "Kamran Akmal": {
+  "kamran akmal": {
     "batter_id": 489,
     "Active Ratio_death": 0.705882353,
     "Striking Ratio_death": 0.272727273,
@@ -1814,7 +1814,7 @@
     "True SR_powerplay": 8.133971292,
     "True Avg_powerplay": 5.5
   },
-  "LA Carseldine": {
+  "la carseldine": {
     "batter_id": 396,
     "Active Ratio_death": 1.0,
     "Striking Ratio_death": 0.222222222,
@@ -1829,7 +1829,7 @@
     "True SR_powerplay": 30.51470588,
     "True Avg_powerplay": 22.83333333
   },
-  "LA Pomersbach": {
+  "la pomersbach": {
     "batter_id": 375,
     "Active Ratio_death": 0.723404255,
     "Striking Ratio_death": 0.222222222,
@@ -1844,7 +1844,7 @@
     "True SR_powerplay": 10.36075288,
     "True Avg_powerplay": 4.75
   },
-  "LJ Wright": {
+  "lj wright": {
     "batter_id": 159,
     "Active Ratio_death": 0.805555556,
     "Striking Ratio_death": 0.789473684,
@@ -1859,7 +1859,7 @@
     "True SR_powerplay": 18.66666667,
     "True Avg_powerplay": 3.125
   },
-  "LMP Simmons": {
+  "lmp simmons": {
     "batter_id": 539,
     "Active Ratio_death": 0.777777778,
     "Striking Ratio_death": 0.25,
@@ -1874,7 +1874,7 @@
     "True SR_powerplay": 4.403169926,
     "True Avg_powerplay": 8.771929825
   },
-  "LPC Silva": {
+  "lpc silva": {
     "batter_id": 267,
     "Active Ratio_death": 1.0,
     "Striking Ratio_death": 1.0,
@@ -1889,7 +1889,7 @@
     "True SR_powerplay": 46.52014652,
     "True Avg_powerplay": 1.666666667
   },
-  "LR Shukla": {
+  "lr shukla": {
     "batter_id": 382,
     "Active Ratio_death": 0.685897436,
     "Striking Ratio_death": 0.237288136,
@@ -1904,7 +1904,7 @@
     "True SR_powerplay": 61.20481928,
     "True Avg_powerplay": 12.0
   },
-  "LRPL Taylor": {
+  "lrpl taylor": {
     "batter_id": 343,
     "Active Ratio_death": 0.72826087,
     "Striking Ratio_death": 0.304,
@@ -1919,7 +1919,7 @@
     "True SR_powerplay": 13.08821567,
     "True Avg_powerplay": 32.41025641
   },
-  "LS Livingstone": {
+  "ls livingstone": {
     "batter_id": 29,
     "Active Ratio_death": 0.784313725,
     "Striking Ratio_death": 0.5,
@@ -1934,7 +1934,7 @@
     "True SR_powerplay": 49.39271255,
     "True Avg_powerplay": 15.16666667
   },
-  "Lalit Yadav": {
+  "lalit yadav": {
     "batter_id": 598,
     "Active Ratio_death": 0.785714286,
     "Striking Ratio_death": 0.242424242,
@@ -1949,7 +1949,7 @@
     "True SR_powerplay": 47.85714286,
     "True Avg_powerplay": 3.5
   },
-  "M Kaif": {
+  "m kaif": {
     "batter_id": 610,
     "Active Ratio_death": 0.6,
     "Striking Ratio_death": 0.161290323,
@@ -1964,7 +1964,7 @@
     "True SR_powerplay": 40.2842184,
     "True Avg_powerplay": 8.7
   },
-  "M Manhas": {
+  "m manhas": {
     "batter_id": 565,
     "Active Ratio_death": 0.729281768,
     "Striking Ratio_death": 0.186567164,
@@ -1979,7 +1979,7 @@
     "True SR_powerplay": 24.62570986,
     "True Avg_powerplay": 1.516666667
   },
-  "M Rawat": {
+  "m rawat": {
     "batter_id": 640,
     "Active Ratio_death": 0.604651163,
     "Striking Ratio_death": 0.108108108,
@@ -1994,7 +1994,7 @@
     "True SR_powerplay": 121.6216216,
     "True Avg_powerplay": 22.5
   },
-  "M Shahrukh Khan": {
+  "m shahrukh khan": {
     "batter_id": 7,
     "Active Ratio_death": 0.626373626,
     "Striking Ratio_death": 0.272727273,
@@ -2009,7 +2009,7 @@
     "True SR_powerplay": 1.363636364,
     "True Avg_powerplay": 4.857142857
   },
-  "M Vijay": {
+  "m vijay": {
     "batter_id": 628,
     "Active Ratio_death": 0.724637681,
     "Striking Ratio_death": 0.4,
@@ -2024,7 +2024,7 @@
     "True SR_powerplay": 0.152295431,
     "True Avg_powerplay": 0.753901561
   },
-  "M Vohra": {
+  "m vohra": {
     "batter_id": 435,
     "Active Ratio_death": 0.730769231,
     "Striking Ratio_death": 0.846153846,
@@ -2039,7 +2039,7 @@
     "True SR_powerplay": 3.455571874,
     "True Avg_powerplay": 1.17902439
   },
-  "MA Agarwal": {
+  "ma agarwal": {
     "batter_id": 199,
     "Active Ratio_death": 0.81981982,
     "Striking Ratio_death": 0.538461538,
@@ -2054,7 +2054,7 @@
     "True SR_powerplay": 1.888215055,
     "True Avg_powerplay": 4.567139899
   },
-  "MC Henriques": {
+  "mc henriques": {
     "batter_id": 222,
     "Active Ratio_death": 0.762626263,
     "Striking Ratio_death": 0.333333333,
@@ -2069,7 +2069,7 @@
     "True SR_powerplay": 2.868682684,
     "True Avg_powerplay": 25.33333333
   },
-  "MC Juneja": {
+  "mc juneja": {
     "batter_id": 298,
     "Active Ratio_death": 0.5625,
     "Striking Ratio_death": 0.142857143,
@@ -2084,7 +2084,7 @@
     "True SR_powerplay": 12.00603318,
     "True Avg_powerplay": 5.285714286
   },
-  "MD Mishra": {
+  "md mishra": {
     "batter_id": 507,
     "Active Ratio_death": 0.736842105,
     "Striking Ratio_death": 0.1875,
@@ -2099,7 +2099,7 @@
     "True SR_powerplay": 2.386831276,
     "True Avg_powerplay": 0.060606061
   },
-  "MEK Hussey": {
+  "mek hussey": {
     "batter_id": 234,
     "Active Ratio_death": 0.825757576,
     "Striking Ratio_death": 0.456790123,
@@ -2114,7 +2114,7 @@
     "True SR_powerplay": 3.630310717,
     "True Avg_powerplay": 9.034829721
   },
-  "MJ McClenaghan": {
+  "mj mcclenaghan": {
     "batter_id": 185,
     "Active Ratio_death": 0.468085106,
     "Striking Ratio_death": 0.210526316,
@@ -2129,7 +2129,7 @@
     "True SR_powerplay": 56.75675676,
     "True Avg_powerplay": 5.25
   },
-  "MJ Santner": {
+  "mj santner": {
     "batter_id": 223,
     "Active Ratio_death": 0.785714286,
     "Striking Ratio_death": 0.333333333,
@@ -2144,7 +2144,7 @@
     "True SR_powerplay": 14.34217956,
     "True Avg_powerplay": 9.5
   },
-  "MK Lomror": {
+  "mk lomror": {
     "batter_id": 575,
     "Active Ratio_death": 0.78125,
     "Striking Ratio_death": 0.285714286,
@@ -2159,7 +2159,7 @@
     "True SR_powerplay": 10.86956522,
     "True Avg_powerplay": 3.75
   },
-  "MK Pandey": {
+  "mk pandey": {
     "batter_id": 313,
     "Active Ratio_death": 0.76,
     "Striking Ratio_death": 0.239202658,
@@ -2174,7 +2174,7 @@
     "True SR_powerplay": 1.655412443,
     "True Avg_powerplay": 11.26666667
   },
-  "MK Tiwary": {
+  "mk tiwary": {
     "batter_id": 645,
     "Active Ratio_death": 0.748110831,
     "Striking Ratio_death": 0.25087108,
@@ -2189,7 +2189,7 @@
     "True SR_powerplay": 2.854992354,
     "True Avg_powerplay": 7.194736842
   },
-  "ML Hayden": {
+  "ml hayden": {
     "batter_id": 13,
     "Active Ratio_death": 0.822222222,
     "Striking Ratio_death": 0.5,
@@ -2204,7 +2204,7 @@
     "True SR_powerplay": 3.865247705,
     "True Avg_powerplay": 6.07807309
   },
-  "MM Ali": {
+  "mm ali": {
     "batter_id": 600,
     "Active Ratio_death": 0.681818182,
     "Striking Ratio_death": 0.449275362,
@@ -2219,7 +2219,7 @@
     "True SR_powerplay": 10.34229096,
     "True Avg_powerplay": 6.476190476
   },
-  "MN Samuels": {
+  "mn samuels": {
     "batter_id": 280,
     "Active Ratio_death": 0.823529412,
     "Striking Ratio_death": 0.166666667,
@@ -2234,7 +2234,7 @@
     "True SR_powerplay": 48.21428571,
     "True Avg_powerplay": 6.0
   },
-  "MN van Wyk": {
+  "mn van wyk": {
     "batter_id": 454,
     "Active Ratio_death": 0.825,
     "Striking Ratio_death": 0.32,
@@ -2249,7 +2249,7 @@
     "True SR_powerplay": 11.13793103,
     "True Avg_powerplay": 4.6
   },
-  "MP Stoinis": {
+  "mp stoinis": {
     "batter_id": 107,
     "Active Ratio_death": 0.734463277,
     "Striking Ratio_death": 0.316666667,
@@ -2264,7 +2264,7 @@
     "True SR_powerplay": 18.5910157,
     "True Avg_powerplay": 5.370967742
   },
-  "MR Marsh": {
+  "mr marsh": {
     "batter_id": 342,
     "Active Ratio_death": 0.640350877,
     "Striking Ratio_death": 0.258823529,
@@ -2279,7 +2279,7 @@
     "True SR_powerplay": 3.76312141,
     "True Avg_powerplay": 10.8
   },
-  "MS Bisla": {
+  "ms bisla": {
     "batter_id": 257,
     "Active Ratio_death": 0.606060606,
     "Striking Ratio_death": 0.391304348,
@@ -2294,7 +2294,7 @@
     "True SR_powerplay": 3.935185185,
     "True Avg_powerplay": 5.14354067
   },
-  "MS Dhoni": {
+  "ms dhoni": {
     "batter_id": 563,
     "Active Ratio_death": 0.75103981,
     "Striking Ratio_death": 0.365491651,
@@ -2309,7 +2309,7 @@
     "True SR_powerplay": 14.38568518,
     "True Avg_powerplay": 19.16666667
   },
-  "MV Boucher": {
+  "mv boucher": {
     "batter_id": 294,
     "Active Ratio_death": 0.746478873,
     "Striking Ratio_death": 0.291666667,
@@ -2324,7 +2324,7 @@
     "True SR_powerplay": 5.05952381,
     "True Avg_powerplay": 9.875
   },
-  "Mandeep Singh": {
+  "mandeep singh": {
     "batter_id": 470,
     "Active Ratio_death": 0.77238806,
     "Striking Ratio_death": 0.245989305,
@@ -2339,7 +2339,7 @@
     "True SR_powerplay": 0.5558469,
     "True Avg_powerplay": 4.446519525
   },
-  "Misbah-ul-Haq": {
+  "misbah-ul-haq": {
     "batter_id": 160,
     "Active Ratio_death": 0.7,
     "Striking Ratio_death": 0.5,
@@ -2354,7 +2354,7 @@
     "True SR_powerplay": 56.12082671,
     "True Avg_powerplay": 7.888888889
   },
-  "Mohammad Hafeez": {
+  "mohammad hafeez": {
     "batter_id": 158,
     "Active Ratio_death": 0.444444444,
     "Striking Ratio_death": 0.285714286,
@@ -2369,7 +2369,7 @@
     "True SR_powerplay": 1.184110008,
     "True Avg_powerplay": 3.166666667
   },
-  "Mohammad Nabi": {
+  "mohammad nabi": {
     "batter_id": 484,
     "Active Ratio_death": 0.628571429,
     "Striking Ratio_death": 0.367346939,
@@ -2384,7 +2384,7 @@
     "True SR_powerplay": 136.5853659,
     "True Avg_powerplay": 10.75
   },
-  "N Jagadeesan": {
+  "n jagadeesan": {
     "batter_id": 431,
     "Active Ratio_death": 0.769230769,
     "Striking Ratio_death": 0.0,
@@ -2399,7 +2399,7 @@
     "True SR_powerplay": 33.33333333,
     "True Avg_powerplay": 6.142857143
   },
-  "N Pooran": {
+  "n pooran": {
     "batter_id": 26,
     "Active Ratio_death": 0.698412698,
     "Striking Ratio_death": 0.310077519,
@@ -2414,7 +2414,7 @@
     "True SR_powerplay": 12.65232975,
     "True Avg_powerplay": 8.166666667
   },
-  "N Rana": {
+  "n rana": {
     "batter_id": 141,
     "Active Ratio_death": 0.701570681,
     "Striking Ratio_death": 0.428571429,
@@ -2429,7 +2429,7 @@
     "True SR_powerplay": 4.725977687,
     "True Avg_powerplay": 12.6
   },
-  "N Saini": {
+  "n saini": {
     "batter_id": 523,
     "Active Ratio_death": 0.375,
     "Striking Ratio_death": 0.166666667,
@@ -2444,7 +2444,7 @@
     "True SR_powerplay": 21.38960666,
     "True Avg_powerplay": 4.333333333
   },
-  "NK Patel": {
+  "nk patel": {
     "batter_id": 524,
     "Active Ratio_death": 0.80952381,
     "Striking Ratio_death": 0.333333333,
@@ -2459,7 +2459,7 @@
     "True SR_powerplay": 8.114035088,
     "True Avg_powerplay": 29.55555556
   },
-  "NLTC Perera": {
+  "nltc perera": {
     "batter_id": 367,
     "Active Ratio_death": 0.692307692,
     "Striking Ratio_death": 0.260504202,
@@ -2474,7 +2474,7 @@
     "True SR_powerplay": 32.40437158,
     "True Avg_powerplay": 10.15384615
   },
-  "NS Naik": {
+  "ns naik": {
     "batter_id": 481,
     "Active Ratio_death": 0.523809524,
     "Striking Ratio_death": 0.0,
@@ -2489,7 +2489,7 @@
     "True SR_powerplay": 56.25,
     "True Avg_powerplay": 7.333333333
   },
-  "NV Ojha": {
+  "nv ojha": {
     "batter_id": 36,
     "Active Ratio_death": 0.6271777,
     "Striking Ratio_death": 0.231481481,
@@ -2504,7 +2504,7 @@
     "True SR_powerplay": 9.248412582,
     "True Avg_powerplay": 0.631495228
   },
-  "OA Shah": {
+  "oa shah": {
     "batter_id": 62,
     "Active Ratio_death": 0.765060241,
     "Striking Ratio_death": 0.282051282,
@@ -2519,7 +2519,7 @@
     "True SR_powerplay": 22.54243979,
     "True Avg_powerplay": 6.2
   },
-  "P Kumar": {
+  "p kumar": {
     "batter_id": 123,
     "Active Ratio_death": 0.57480315,
     "Striking Ratio_death": 0.16,
@@ -2534,7 +2534,7 @@
     "True SR_powerplay": 59.66666667,
     "True Avg_powerplay": 17.2
   },
-  "P Negi": {
+  "p negi": {
     "batter_id": 177,
     "Active Ratio_death": 0.693181818,
     "Striking Ratio_death": 0.24,
@@ -2549,7 +2549,7 @@
     "True SR_powerplay": 60.57971014,
     "True Avg_powerplay": 4.818181818
   },
-  "P Simran Singh": {
+  "p simran singh": {
     "batter_id": 239,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.142857143,
@@ -2564,7 +2564,7 @@
     "True SR_powerplay": 19.21069798,
     "True Avg_powerplay": 14.85714286
   },
-  "PA Patel": {
+  "pa patel": {
     "batter_id": 80,
     "Active Ratio_death": 0.746268657,
     "Striking Ratio_death": 0.224489796,
@@ -2579,7 +2579,7 @@
     "True SR_powerplay": 3.049934787,
     "True Avg_powerplay": 4.477832512
   },
-  "PA Reddy": {
+  "pa reddy": {
     "batter_id": 506,
     "Active Ratio_death": 0.8,
     "Striking Ratio_death": 1.5,
@@ -2594,7 +2594,7 @@
     "True SR_powerplay": 3.585445167,
     "True Avg_powerplay": 2.866666667
   },
-  "PBB Rajapaksa": {
+  "pbb rajapaksa": {
     "batter_id": 603,
     "Active Ratio_death": 0.6,
     "Striking Ratio_death": 0.0,
@@ -2609,7 +2609,7 @@
     "True SR_powerplay": 62.60869565,
     "True Avg_powerplay": 10.06060606
   },
-  "PC Valthaty": {
+  "pc valthaty": {
     "batter_id": 512,
     "Active Ratio_death": 0.772727273,
     "Striking Ratio_death": 0.727272727,
@@ -2624,7 +2624,7 @@
     "True SR_powerplay": 0.357525465,
     "True Avg_powerplay": 4.025
   },
-  "PD Collingwood": {
+  "pd collingwood": {
     "batter_id": 151,
     "Active Ratio_death": 0.720930233,
     "Striking Ratio_death": 0.344827586,
@@ -2639,7 +2639,7 @@
     "True SR_powerplay": 5.22875817,
     "True Avg_powerplay": 6.636363636
   },
-  "PJ Cummins": {
+  "pj cummins": {
     "batter_id": 475,
     "Active Ratio_death": 0.690322581,
     "Striking Ratio_death": 0.353535354,
@@ -2654,7 +2654,7 @@
     "True SR_powerplay": 97.22222222,
     "True Avg_powerplay": 7.0
   },
-  "PK Garg": {
+  "pk garg": {
     "batter_id": 51,
     "Active Ratio_death": 0.722222222,
     "Striking Ratio_death": 0.347826087,
@@ -2669,7 +2669,7 @@
     "True SR_powerplay": 9.601043997,
     "True Avg_powerplay": 5.785714286
   },
-  "PP Chawla": {
+  "pp chawla": {
     "batter_id": 138,
     "Active Ratio_death": 0.620481928,
     "Striking Ratio_death": 0.218253968,
@@ -2684,7 +2684,7 @@
     "True SR_powerplay": 9.0,
     "True Avg_powerplay": 6.75
   },
-  "PP Shaw": {
+  "pp shaw": {
     "batter_id": 503,
     "Active Ratio_death": 0.619047619,
     "Striking Ratio_death": 0.357142857,
@@ -2699,7 +2699,7 @@
     "True SR_powerplay": 15.6493996,
     "True Avg_powerplay": 5.494505495
   },
-  "PR Shah": {
+  "pr shah": {
     "batter_id": 220,
     "Active Ratio_death": 0.684210526,
     "Striking Ratio_death": 0.25,
@@ -2714,7 +2714,7 @@
     "True SR_powerplay": 1.724137931,
     "True Avg_powerplay": 15.25
   },
-  "Q de Kock": {
+  "q de kock": {
     "batter_id": 97,
     "Active Ratio_death": 0.873417722,
     "Striking Ratio_death": 0.553191489,
@@ -2729,7 +2729,7 @@
     "True SR_powerplay": 10.34733777,
     "True Avg_powerplay": 2.846031746
   },
-  "R Ashwin": {
+  "r ashwin": {
     "batter_id": 39,
     "Active Ratio_death": 0.696875,
     "Striking Ratio_death": 0.20661157,
@@ -2744,7 +2744,7 @@
     "True SR_powerplay": 1.578576462,
     "True Avg_powerplay": 1.264705882
   },
-  "R Bishnoi": {
+  "r bishnoi": {
     "batter_id": 550,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.0,
@@ -2759,7 +2759,7 @@
     "True SR_powerplay": 25.86872587,
     "True Avg_powerplay": 1.0
   },
-  "R Dravid": {
+  "r dravid": {
     "batter_id": 499,
     "Active Ratio_death": 0.669491525,
     "Striking Ratio_death": 0.4,
@@ -2774,7 +2774,7 @@
     "True SR_powerplay": 1.90471748,
     "True Avg_powerplay": 19.50130719
   },
-  "R McLaren": {
+  "r mclaren": {
     "batter_id": 358,
     "Active Ratio_death": 0.696428571,
     "Striking Ratio_death": 0.181818182,
@@ -2789,7 +2789,7 @@
     "True SR_powerplay": 18.88544892,
     "True Avg_powerplay": 22.0
   },
-  "R Parag": {
+  "r parag": {
     "batter_id": 582,
     "Active Ratio_death": 0.693467337,
     "Striking Ratio_death": 0.269503546,
@@ -2804,7 +2804,7 @@
     "True SR_powerplay": 94.66666667,
     "True Avg_powerplay": 7.888888889
   },
-  "R Sathish": {
+  "r sathish": {
     "batter_id": 265,
     "Active Ratio_death": 0.734513274,
     "Striking Ratio_death": 0.240506329,
@@ -2819,7 +2819,7 @@
     "True SR_powerplay": 105.2631579,
     "True Avg_powerplay": 20.0
   },
-  "R Tewatia": {
+  "r tewatia": {
     "batter_id": 188,
     "Active Ratio_death": 0.714788732,
     "Striking Ratio_death": 0.338383838,
@@ -2834,7 +2834,7 @@
     "True SR_powerplay": 10.33834586,
     "True Avg_powerplay": 1.3
   },
-  "RA Jadeja": {
+  "ra jadeja": {
     "batter_id": 515,
     "Active Ratio_death": 0.744680851,
     "Striking Ratio_death": 0.252336449,
@@ -2849,7 +2849,7 @@
     "True SR_powerplay": 27.32919255,
     "True Avg_powerplay": 17.4
   },
-  "RA Tripathi": {
+  "ra tripathi": {
     "batter_id": 212,
     "Active Ratio_death": 0.651162791,
     "Striking Ratio_death": 0.258064516,
@@ -2864,7 +2864,7 @@
     "True SR_powerplay": 21.1003247,
     "True Avg_powerplay": 6.684157921
   },
-  "RD Gaikwad": {
+  "rd gaikwad": {
     "batter_id": 205,
     "Active Ratio_death": 0.797752809,
     "Striking Ratio_death": 0.403508772,
@@ -2879,7 +2879,7 @@
     "True SR_powerplay": 8.47355543,
     "True Avg_powerplay": 0.644444444
   },
-  "RE van der Merwe": {
+  "re van der merwe": {
     "batter_id": 346,
     "Active Ratio_death": 0.630434783,
     "Striking Ratio_death": 0.15,
@@ -2894,7 +2894,7 @@
     "True SR_powerplay": 16.98841699,
     "True Avg_powerplay": 10.0
   },
-  "RG Sharma": {
+  "rg sharma": {
     "batter_id": 255,
     "Active Ratio_death": 0.737888199,
     "Striking Ratio_death": 0.394736842,
@@ -2909,7 +2909,7 @@
     "True SR_powerplay": 2.421001382,
     "True Avg_powerplay": 5.930165105
   },
-  "RJ Quiney": {
+  "rj quiney": {
     "batter_id": 271,
     "Active Ratio_death": 0.333333333,
     "Striking Ratio_death": 0.0,
@@ -2924,7 +2924,7 @@
     "True SR_powerplay": 10.07462687,
     "True Avg_powerplay": 4.9375
   },
-  "RK Bhui": {
+  "rk bhui": {
     "batter_id": 483,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -2939,7 +2939,7 @@
     "True SR_powerplay": 108.1081081,
     "True Avg_powerplay": 13.33333333
   },
-  "RK Singh": {
+  "rk singh": {
     "batter_id": 347,
     "Active Ratio_death": 0.716216216,
     "Striking Ratio_death": 0.416666667,
@@ -2954,7 +2954,7 @@
     "True SR_powerplay": 49.9047619,
     "True Avg_powerplay": 0.833333333
   },
-  "RM Patidar": {
+  "rm patidar": {
     "batter_id": 179,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 1.125,
@@ -2969,7 +2969,7 @@
     "True SR_powerplay": 1.370212766,
     "True Avg_powerplay": 24.7
   },
-  "RN ten Doeschate": {
+  "rn ten doeschate": {
     "batter_id": 306,
     "Active Ratio_death": 0.71641791,
     "Striking Ratio_death": 0.291666667,
@@ -2984,7 +2984,7 @@
     "True SR_powerplay": 9.398496241,
     "True Avg_powerplay": 2.285714286
   },
-  "RR Pant": {
+  "rr pant": {
     "batter_id": 279,
     "Active Ratio_death": 0.712435233,
     "Striking Ratio_death": 0.514767932,
@@ -2999,7 +2999,7 @@
     "True SR_powerplay": 6.938931486,
     "True Avg_powerplay": 31.83809524
   },
-  "RR Rossouw": {
+  "rr rossouw": {
     "batter_id": 211,
     "Active Ratio_death": 0.727272727,
     "Striking Ratio_death": 0.375,
@@ -3014,7 +3014,7 @@
     "True SR_powerplay": 7.272727273,
     "True Avg_powerplay": 5.428571429
   },
-  "RS Bopara": {
+  "rs bopara": {
     "batter_id": 145,
     "Active Ratio_death": 0.786407767,
     "Striking Ratio_death": 0.304347826,
@@ -3029,7 +3029,7 @@
     "True SR_powerplay": 26.71274962,
     "True Avg_powerplay": 10.69172932
   },
-  "RV Gomez": {
+  "rv gomez": {
     "batter_id": 268,
     "Active Ratio_death": 0.634146341,
     "Striking Ratio_death": 0.193548387,
@@ -3044,7 +3044,7 @@
     "True SR_powerplay": 74.35897436,
     "True Avg_powerplay": 4.833333333
   },
-  "RV Uthappa": {
+  "rv uthappa": {
     "batter_id": 21,
     "Active Ratio_death": 0.752411576,
     "Striking Ratio_death": 0.375,
@@ -3059,7 +3059,7 @@
     "True SR_powerplay": 4.682215923,
     "True Avg_powerplay": 6.171052632
   },
-  "Ramandeep Singh": {
+  "ramandeep singh": {
     "batter_id": 132,
     "Active Ratio_death": 0.818181818,
     "Striking Ratio_death": 1.0,
@@ -3074,7 +3074,7 @@
     "True SR_powerplay": 33.33333333,
     "True Avg_powerplay": 16.5
   },
-  "S Anirudha": {
+  "s anirudha": {
     "batter_id": 538,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.235294118,
@@ -3089,7 +3089,7 @@
     "True SR_powerplay": 3.032562764,
     "True Avg_powerplay": 9.833333333
   },
-  "S Badrinath": {
+  "s badrinath": {
     "batter_id": 206,
     "Active Ratio_death": 0.779026217,
     "Striking Ratio_death": 0.287234043,
@@ -3104,7 +3104,7 @@
     "True SR_powerplay": 20.79874274,
     "True Avg_powerplay": 12.67204301
   },
-  "S Dhawan": {
+  "s dhawan": {
     "batter_id": 492,
     "Active Ratio_death": 0.760989011,
     "Striking Ratio_death": 0.314285714,
@@ -3119,7 +3119,7 @@
     "True SR_powerplay": 2.30150475,
     "True Avg_powerplay": 1.1650724
   },
-  "S Dube": {
+  "s dube": {
     "batter_id": 178,
     "Active Ratio_death": 0.694656489,
     "Striking Ratio_death": 0.293478261,
@@ -3134,7 +3134,7 @@
     "True SR_powerplay": 14.08554572,
     "True Avg_powerplay": 18.81481481
   },
-  "S Gopal": {
+  "s gopal": {
     "batter_id": 461,
     "Active Ratio_death": 0.696078431,
     "Striking Ratio_death": 0.223684211,
@@ -3149,7 +3149,7 @@
     "True SR_powerplay": 81.08108108,
     "True Avg_powerplay": 7.5
   },
-  "S Rana": {
+  "s rana": {
     "batter_id": 266,
     "Active Ratio_death": 0.782608696,
     "Striking Ratio_death": 0.21875,
@@ -3164,7 +3164,7 @@
     "True SR_powerplay": 14.19676214,
     "True Avg_powerplay": 13.0
   },
-  "S Sohal": {
+  "s sohal": {
     "batter_id": 613,
     "Active Ratio_death": 0.333333333,
     "Striking Ratio_death": 0.0,
@@ -3179,7 +3179,7 @@
     "True SR_powerplay": 19.54851209,
     "True Avg_powerplay": 3.866666667
   },
-  "S Vidyut": {
+  "s vidyut": {
     "batter_id": 339,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -3194,7 +3194,7 @@
     "True SR_powerplay": 23.52736318,
     "True Avg_powerplay": 7.127272727
   },
-  "SA Yadav": {
+  "sa yadav": {
     "batter_id": 273,
     "Active Ratio_death": 0.696202532,
     "Striking Ratio_death": 0.39047619,
@@ -3209,7 +3209,7 @@
     "True SR_powerplay": 14.34255454,
     "True Avg_powerplay": 28.29386344
   },
-  "SB Styris": {
+  "sb styris": {
     "batter_id": 409,
     "Active Ratio_death": 0.740740741,
     "Striking Ratio_death": 0.238095238,
@@ -3224,7 +3224,7 @@
     "True SR_powerplay": 49.26253687,
     "True Avg_powerplay": 13.83333333
   },
-  "SC Ganguly": {
+  "sc ganguly": {
     "batter_id": 321,
     "Active Ratio_death": 0.717171717,
     "Striking Ratio_death": 0.375,
@@ -3239,7 +3239,7 @@
     "True SR_powerplay": 2.545464118,
     "True Avg_powerplay": 5.286220871
   },
-  "SD Chitnis": {
+  "sd chitnis": {
     "batter_id": 95,
     "Active Ratio_death": 0.694444444,
     "Striking Ratio_death": 0.1,
@@ -3254,7 +3254,7 @@
     "True SR_powerplay": 37.38738739,
     "True Avg_powerplay": 4.0
   },
-  "SE Marsh": {
+  "se marsh": {
     "batter_id": 349,
     "Active Ratio_death": 0.759493671,
     "Striking Ratio_death": 0.263157895,
@@ -3269,7 +3269,7 @@
     "True SR_powerplay": 8.711297541,
     "True Avg_powerplay": 11.13823529
   },
-  "SE Rutherford": {
+  "se rutherford": {
     "batter_id": 12,
     "Active Ratio_death": 0.585365854,
     "Striking Ratio_death": 0.290322581,
@@ -3284,7 +3284,7 @@
     "True SR_powerplay": 60.93366093,
     "True Avg_powerplay": 8.0
   },
-  "SK Raina": {
+  "sk raina": {
     "batter_id": 32,
     "Active Ratio_death": 0.79766537,
     "Striking Ratio_death": 0.322580645,
@@ -3299,7 +3299,7 @@
     "True SR_powerplay": 16.6719996,
     "True Avg_powerplay": 9.484738243
   },
-  "SM Curran": {
+  "sm curran": {
     "batter_id": 593,
     "Active Ratio_death": 0.728070175,
     "Striking Ratio_death": 0.457142857,
@@ -3314,7 +3314,7 @@
     "True SR_powerplay": 19.89966555,
     "True Avg_powerplay": 5.666666667
   },
-  "SM Katich": {
+  "sm katich": {
     "batter_id": 174,
     "Active Ratio_death": 0.923076923,
     "Striking Ratio_death": 0.111111111,
@@ -3329,7 +3329,7 @@
     "True SR_powerplay": 25.68038686,
     "True Avg_powerplay": 5.642857143
   },
-  "SM Pollock": {
+  "sm pollock": {
     "batter_id": 652,
     "Active Ratio_death": 0.707317073,
     "Striking Ratio_death": 0.5,
@@ -3344,7 +3344,7 @@
     "True SR_powerplay": 85.93073593,
     "True Avg_powerplay": 14.8
   },
-  "SN Khan": {
+  "sn khan": {
     "batter_id": 249,
     "Active Ratio_death": 0.774834437,
     "Striking Ratio_death": 0.381443299,
@@ -3359,7 +3359,7 @@
     "True SR_powerplay": 6.876683628,
     "True Avg_powerplay": 1.466666667
   },
-  "SO Hetmyer": {
+  "so hetmyer": {
     "batter_id": 394,
     "Active Ratio_death": 0.73880597,
     "Striking Ratio_death": 0.395348837,
@@ -3374,7 +3374,7 @@
     "True SR_powerplay": 1.340923466,
     "True Avg_powerplay": 12.04545455
   },
-  "SP Goswami": {
+  "sp goswami": {
     "batter_id": 18,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.125,
@@ -3389,7 +3389,7 @@
     "True SR_powerplay": 7.853011366,
     "True Avg_powerplay": 3.564814815
   },
-  "SP Jackson": {
+  "sp jackson": {
     "batter_id": 359,
     "Active Ratio_death": 0.8,
     "Striking Ratio_death": 0.083333333,
@@ -3404,7 +3404,7 @@
     "True SR_powerplay": 2.777777778,
     "True Avg_powerplay": 3.666666667
   },
-  "SP Narine": {
+  "sp narine": {
     "batter_id": 545,
     "Active Ratio_death": 0.577777778,
     "Striking Ratio_death": 0.180555556,
@@ -3419,7 +3419,7 @@
     "True SR_powerplay": 40.3975407,
     "True Avg_powerplay": 8.196202532
   },
-  "SPD Smith": {
+  "spd smith": {
     "batter_id": 615,
     "Active Ratio_death": 0.768115942,
     "Striking Ratio_death": 0.306338028,
@@ -3434,7 +3434,7 @@
     "True SR_powerplay": 1.899165358,
     "True Avg_powerplay": 18.46369637
   },
-  "SR Tendulkar": {
+  "sr tendulkar": {
     "batter_id": 362,
     "Active Ratio_death": 0.733333333,
     "Striking Ratio_death": 0.377777778,
@@ -3449,7 +3449,7 @@
     "True SR_powerplay": 5.629071479,
     "True Avg_powerplay": 9.054487179
   },
-  "SR Watson": {
+  "sr watson": {
     "batter_id": 146,
     "Active Ratio_death": 0.759493671,
     "Striking Ratio_death": 0.425675676,
@@ -3464,7 +3464,7 @@
     "True SR_powerplay": 1.291385327,
     "True Avg_powerplay": 7.31039304
   },
-  "SS Iyer": {
+  "ss iyer": {
     "batter_id": 579,
     "Active Ratio_death": 0.751091703,
     "Striking Ratio_death": 0.297468354,
@@ -3479,7 +3479,7 @@
     "True SR_powerplay": 3.989904,
     "True Avg_powerplay": 11.78248366
   },
-  "SS Tiwary": {
+  "ss tiwary": {
     "batter_id": 540,
     "Active Ratio_death": 0.758169935,
     "Striking Ratio_death": 0.228699552,
@@ -3494,7 +3494,7 @@
     "True SR_powerplay": 2.698663854,
     "True Avg_powerplay": 34.78378378
   },
-  "STR Binny": {
+  "str binny": {
     "batter_id": 243,
     "Active Ratio_death": 0.734375,
     "Striking Ratio_death": 0.251396648,
@@ -3509,7 +3509,7 @@
     "True SR_powerplay": 20.01520913,
     "True Avg_powerplay": 5.9
   },
-  "SV Samson": {
+  "sv samson": {
     "batter_id": 187,
     "Active Ratio_death": 0.769230769,
     "Striking Ratio_death": 0.429268293,
@@ -3524,7 +3524,7 @@
     "True SR_powerplay": 2.090136077,
     "True Avg_powerplay": 5.887252412
   },
-  "SW Billings": {
+  "sw billings": {
     "batter_id": 118,
     "Active Ratio_death": 0.720588235,
     "Striking Ratio_death": 0.325581395,
@@ -3539,7 +3539,7 @@
     "True SR_powerplay": 6.942114094,
     "True Avg_powerplay": 6.204545455
   },
-  "Sachin Baby": {
+  "sachin baby": {
     "batter_id": 119,
     "Active Ratio_death": 0.689655172,
     "Striking Ratio_death": 0.342105263,
@@ -3554,7 +3554,7 @@
     "True SR_powerplay": 81.57894737,
     "True Avg_powerplay": 6.2
   },
-  "Salman Butt": {
+  "salman butt": {
     "batter_id": 402,
     "Active Ratio_death": 0.666666667,
     "Striking Ratio_death": 2.0,
@@ -3569,7 +3569,7 @@
     "True SR_powerplay": 6.93957115,
     "True Avg_powerplay": 4.673076923
   },
-  "Shahbaz Ahmed": {
+  "shahbaz ahmed": {
     "batter_id": 414,
     "Active Ratio_death": 0.638888889,
     "Striking Ratio_death": 0.230769231,
@@ -3584,7 +3584,7 @@
     "True SR_powerplay": 7.692307692,
     "True Avg_powerplay": 1.6
   },
-  "Shahid Afridi": {
+  "shahid afridi": {
     "batter_id": 254,
     "Active Ratio_death": 0.6,
     "Striking Ratio_death": 0.666666667,
@@ -3599,7 +3599,7 @@
     "True SR_powerplay": 111.7131063,
     "True Avg_powerplay": 5.333333333
   },
-  "Shakib Al Hasan": {
+  "shakib al hasan": {
     "batter_id": 371,
     "Active Ratio_death": 0.746724891,
     "Striking Ratio_death": 0.218390805,
@@ -3614,7 +3614,7 @@
     "True SR_powerplay": 10.33697632,
     "True Avg_powerplay": 5.230769231
   },
-  "Shoaib Malik": {
+  "shoaib malik": {
     "batter_id": 607,
     "Active Ratio_death": 0.714285714,
     "Striking Ratio_death": 0.166666667,
@@ -3629,7 +3629,7 @@
     "True SR_powerplay": 23.24561404,
     "True Avg_powerplay": 2.0
   },
-  "Shubman Gill": {
+  "shubman gill": {
     "batter_id": 482,
     "Active Ratio_death": 0.716981132,
     "Striking Ratio_death": 0.18852459,
@@ -3644,7 +3644,7 @@
     "True SR_powerplay": 1.395554138,
     "True Avg_powerplay": 5.376960784
   },
-  "Sohail Tanvir": {
+  "sohail tanvir": {
     "batter_id": 184,
     "Active Ratio_death": 0.9,
     "Striking Ratio_death": 0.0,
@@ -3659,7 +3659,7 @@
     "True SR_powerplay": 45.83333333,
     "True Avg_powerplay": 1.0
   },
-  "Sunny Singh": {
+  "sunny singh": {
     "batter_id": 626,
     "Active Ratio_death": 0.5,
     "Striking Ratio_death": 0.142857143,
@@ -3674,7 +3674,7 @@
     "True SR_powerplay": 88.83333333,
     "True Avg_powerplay": 6.777777778
   },
-  "TL Suman": {
+  "tl suman": {
     "batter_id": 355,
     "Active Ratio_death": 0.721153846,
     "Striking Ratio_death": 0.2,
@@ -3689,7 +3689,7 @@
     "True SR_powerplay": 0.920544721,
     "True Avg_powerplay": 7.691056911
   },
-  "TM Dilshan": {
+  "tm dilshan": {
     "batter_id": 120,
     "Active Ratio_death": 0.788990826,
     "Striking Ratio_death": 0.347222222,
@@ -3704,7 +3704,7 @@
     "True SR_powerplay": 7.696889887,
     "True Avg_powerplay": 2.935406699
   },
-  "TM Head": {
+  "tm head": {
     "batter_id": 69,
     "Active Ratio_death": 0.818181818,
     "Striking Ratio_death": 0.333333333,
@@ -3719,7 +3719,7 @@
     "True SR_powerplay": 58.82352941,
     "True Avg_powerplay": 15.0
   },
-  "Tilak Varma": {
+  "tilak varma": {
     "batter_id": 644,
     "Active Ratio_death": 0.762711864,
     "Striking Ratio_death": 0.317073171,
@@ -3734,7 +3734,7 @@
     "True SR_powerplay": 39.85185185,
     "True Avg_powerplay": 2.466666667
   },
-  "UBT Chand": {
+  "ubt chand": {
     "batter_id": 651,
     "Active Ratio_death": 0.777777778,
     "Striking Ratio_death": 0.416666667,
@@ -3749,7 +3749,7 @@
     "True SR_powerplay": 20.12900778,
     "True Avg_powerplay": 9.438095238
   },
-  "V Kohli": {
+  "v kohli": {
     "batter_id": 186,
     "Active Ratio_death": 0.774193548,
     "Striking Ratio_death": 0.407142857,
@@ -3764,7 +3764,7 @@
     "True SR_powerplay": 1.31303053,
     "True Avg_powerplay": 7.348908918
   },
-  "V Sehwag": {
+  "v sehwag": {
     "batter_id": 520,
     "Active Ratio_death": 0.727272727,
     "Striking Ratio_death": 0.65,
@@ -3779,7 +3779,7 @@
     "True SR_powerplay": 24.23130197,
     "True Avg_powerplay": 0.341935484
   },
-  "V Shankar": {
+  "v shankar": {
     "batter_id": 203,
     "Active Ratio_death": 0.752380952,
     "Striking Ratio_death": 0.255172414,
@@ -3794,7 +3794,7 @@
     "True SR_powerplay": 51.5750087,
     "True Avg_powerplay": 9.697368421
   },
-  "VR Iyer": {
+  "vr iyer": {
     "batter_id": 310,
     "Active Ratio_death": 0.75,
     "Striking Ratio_death": 0.0,
@@ -3809,7 +3809,7 @@
     "True SR_powerplay": 6.133192319,
     "True Avg_powerplay": 5.604895105
   },
-  "VVS Laxman": {
+  "vvs laxman": {
     "batter_id": 208,
     "Active Ratio_death": 0.6,
     "Striking Ratio_death": 0.0,
@@ -3824,7 +3824,7 @@
     "True SR_powerplay": 31.78194355,
     "True Avg_powerplay": 8.282828283
   },
-  "WD Parnell": {
+  "wd parnell": {
     "batter_id": 413,
     "Active Ratio_death": 0.615384615,
     "Striking Ratio_death": 0.066666667,
@@ -3839,7 +3839,7 @@
     "True SR_powerplay": 10.58558559,
     "True Avg_powerplay": 1.0
   },
-  "WP Saha": {
+  "wp saha": {
     "batter_id": 296,
     "Active Ratio_death": 0.773255814,
     "Striking Ratio_death": 0.279475983,
@@ -3854,7 +3854,7 @@
     "True SR_powerplay": 10.91512008,
     "True Avg_powerplay": 2.407142857
   },
-  "Washington Sundar": {
+  "washington sundar": {
     "batter_id": 201,
     "Active Ratio_death": 0.691176471,
     "Striking Ratio_death": 0.279569892,
@@ -3869,7 +3869,7 @@
     "True SR_powerplay": 72.74247492,
     "True Avg_powerplay": 11.75
   },
-  "Y Nagar": {
+  "y nagar": {
     "batter_id": 215,
     "Active Ratio_death": 0.661157025,
     "Striking Ratio_death": 0.26744186,
@@ -3884,7 +3884,7 @@
     "True SR_powerplay": 26.57657658,
     "True Avg_powerplay": 9.5
   },
-  "Y Venugopal Rao": {
+  "y venugopal rao": {
     "batter_id": 463,
     "Active Ratio_death": 0.744855967,
     "Striking Ratio_death": 0.279069767,
@@ -3899,7 +3899,7 @@
     "True SR_powerplay": 7.510339123,
     "True Avg_powerplay": 13.39215686
   },
-  "YK Pathan": {
+  "yk pathan": {
     "batter_id": 225,
     "Active Ratio_death": 0.730205279,
     "Striking Ratio_death": 0.317021277,
@@ -3914,7 +3914,7 @@
     "True SR_powerplay": 33.87124832,
     "True Avg_powerplay": 12.82352941
   },
-  "YV Takawale": {
+  "yv takawale": {
     "batter_id": 632,
     "Active Ratio_death": 0.9,
     "Striking Ratio_death": 1.666666667,
@@ -3929,7 +3929,7 @@
     "True SR_powerplay": 7.263212977,
     "True Avg_powerplay": 7.811111111
   },
-  "Yashpal Singh": {
+  "yashpal singh": {
     "batter_id": 547,
     "Active Ratio_death": 0.615384615,
     "Striking Ratio_death": 0.3,
@@ -3944,7 +3944,7 @@
     "True SR_powerplay": 37.14285714,
     "True Avg_powerplay": 6.0
   },
-  "Yuvraj Singh": {
+  "yuvraj singh": {
     "batter_id": 391,
     "Active Ratio_death": 0.688659794,
     "Striking Ratio_death": 0.402515723,
@@ -3959,7 +3959,7 @@
     "True SR_powerplay": 2.819539026,
     "True Avg_powerplay": 1.347069597
   },
-  "Z Khan": {
+  "z khan": {
     "batter_id": 513,
     "Active Ratio_death": 0.542857143,
     "Striking Ratio_death": 0.152941176,
@@ -3974,7 +3974,7 @@
     "True SR_powerplay": 75.67567568,
     "True Avg_powerplay": 9.333333333
   },
-  "A Chandila": {
+  "a chandila": {
     "batter_id": 284,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -3989,7 +3989,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Choudhary": {
+  "a choudhary": {
     "batter_id": 254,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4004,7 +4004,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Kumble": {
+  "a kumble": {
     "batter_id": 483,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4019,7 +4019,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Mithun": {
+  "a mithun": {
     "batter_id": 614,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4034,7 +4034,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Nehra": {
+  "a nehra": {
     "batter_id": 486,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4049,7 +4049,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Nel": {
+  "a nel": {
     "batter_id": 195,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4064,7 +4064,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Nortje": {
+  "a nortje": {
     "batter_id": 226,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4079,7 +4079,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Singh": {
+  "a singh": {
     "batter_id": 67,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4094,7 +4094,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Uniyal": {
+  "a uniyal": {
     "batter_id": 411,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4109,7 +4109,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "A Zampa": {
+  "a zampa": {
     "batter_id": 277,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4124,7 +4124,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AA Chavan": {
+  "aa chavan": {
     "batter_id": 392,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4139,7 +4139,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AA Noffke": {
+  "aa noffke": {
     "batter_id": 230,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4154,7 +4154,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AB Dinda": {
+  "ab dinda": {
     "batter_id": 112,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4169,7 +4169,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AC Thomas": {
+  "ac thomas": {
     "batter_id": 461,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4184,7 +4184,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AF Milne": {
+  "af milne": {
     "batter_id": 32,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4199,7 +4199,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AG Murtaza": {
+  "ag murtaza": {
     "batter_id": 626,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4214,7 +4214,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AJ Tye": {
+  "aj tye": {
     "batter_id": 121,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4229,7 +4229,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AM Salvi": {
+  "am salvi": {
     "batter_id": 160,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4244,7 +4244,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AN Ahmed": {
+  "an ahmed": {
     "batter_id": 110,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4259,7 +4259,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AP Dole": {
+  "ap dole": {
     "batter_id": 468,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4274,7 +4274,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AS Joseph": {
+  "as joseph": {
     "batter_id": 635,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4289,7 +4289,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "AS Rajpoot": {
+  "as rajpoot": {
     "batter_id": 596,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4304,7 +4304,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Akash Deep": {
+  "akash deep": {
     "batter_id": 497,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4319,7 +4319,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Akash Singh": {
+  "akash singh": {
     "batter_id": 506,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4334,7 +4334,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Anand Rajan": {
+  "anand rajan": {
     "batter_id": 101,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4349,7 +4349,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Ankit Soni": {
+  "ankit soni": {
     "batter_id": 470,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4364,7 +4364,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Anureet Singh": {
+  "anureet singh": {
     "batter_id": 48,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4379,7 +4379,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Arshdeep Singh": {
+  "arshdeep singh": {
     "batter_id": 58,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4394,7 +4394,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Avesh Khan": {
+  "avesh khan": {
     "batter_id": 574,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4409,7 +4409,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Akhil": {
+  "b akhil": {
     "batter_id": 111,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4424,7 +4424,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Geeves": {
+  "b geeves": {
     "batter_id": 449,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4439,7 +4439,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Kumar": {
+  "b kumar": {
     "batter_id": 490,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4454,7 +4454,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Laughlin": {
+  "b laughlin": {
     "batter_id": 568,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4469,7 +4469,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Lee": {
+  "b lee": {
     "batter_id": 278,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4484,7 +4484,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "B Stanlake": {
+  "b stanlake": {
     "batter_id": 499,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4499,7 +4499,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BA Bhatt": {
+  "ba bhatt": {
     "batter_id": 419,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4514,7 +4514,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BAW Mendis": {
+  "baw mendis": {
     "batter_id": 312,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4529,7 +4529,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BB Sran": {
+  "bb sran": {
     "batter_id": 625,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4544,7 +4544,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BCJ Cutting": {
+  "bcj cutting": {
     "batter_id": 104,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4559,7 +4559,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BE Hendricks": {
+  "be hendricks": {
     "batter_id": 627,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4574,7 +4574,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "BW Hilfenhaus": {
+  "bw hilfenhaus": {
     "batter_id": 588,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4589,7 +4589,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Basil Thampi": {
+  "basil thampi": {
     "batter_id": 334,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4604,7 +4604,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Bipul Sharma": {
+  "bipul sharma": {
     "batter_id": 622,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4619,7 +4619,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "C Sakariya": {
+  "c sakariya": {
     "batter_id": 558,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4634,7 +4634,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CJ Jordan": {
+  "cj jordan": {
     "batter_id": 98,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4649,7 +4649,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CJ McKay": {
+  "cj mckay": {
     "batter_id": 22,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4664,7 +4664,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CK Langeveldt": {
+  "ck langeveldt": {
     "batter_id": 537,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4679,7 +4679,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CR Brathwaite": {
+  "cr brathwaite": {
     "batter_id": 46,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4694,7 +4694,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CR Woakes": {
+  "cr woakes": {
     "batter_id": 600,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4709,7 +4709,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CRD Fernando": {
+  "crd fernando": {
     "batter_id": 636,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4724,7 +4724,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "CV Varun": {
+  "cv varun": {
     "batter_id": 203,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4739,7 +4739,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "D Wiese": {
+  "d wiese": {
     "batter_id": 210,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4754,7 +4754,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "D du Preez": {
+  "d du preez": {
     "batter_id": 229,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4769,7 +4769,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DAJ Bracewell": {
+  "daj bracewell": {
     "batter_id": 45,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4784,7 +4784,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DE Bollinger": {
+  "de bollinger": {
     "batter_id": 298,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4799,7 +4799,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DJ Muthuswami": {
+  "dj muthuswami": {
     "batter_id": 456,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4814,7 +4814,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DJ Willey": {
+  "dj willey": {
     "batter_id": 90,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4829,7 +4829,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DL Chahar": {
+  "dl chahar": {
     "batter_id": 471,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4844,7 +4844,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DL Vettori": {
+  "dl vettori": {
     "batter_id": 333,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4859,7 +4859,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DNT Zoysa": {
+  "dnt zoysa": {
     "batter_id": 448,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4874,7 +4874,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DP Nannes": {
+  "dp nannes": {
     "batter_id": 297,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4889,7 +4889,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DP Vijaykumar": {
+  "dp vijaykumar": {
     "batter_id": 369,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4904,7 +4904,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DS Kulkarni": {
+  "ds kulkarni": {
     "batter_id": 5,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4919,7 +4919,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "DW Steyn": {
+  "dw steyn": {
     "batter_id": 93,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4934,7 +4934,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "FH Edwards": {
+  "fh edwards": {
     "batter_id": 533,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4949,7 +4949,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Fazalhaq Farooqi": {
+  "fazalhaq farooqi": {
     "batter_id": 442,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4964,7 +4964,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "GB Hogg": {
+  "gb hogg": {
     "batter_id": 570,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4979,7 +4979,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "GC Viljoen": {
+  "gc viljoen": {
     "batter_id": 415,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -4994,7 +4994,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "GD McGrath": {
+  "gd mcgrath": {
     "batter_id": 520,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5009,7 +5009,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "GHS Garton": {
+  "ghs garton": {
     "batter_id": 238,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5024,7 +5024,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "GS Sandhu": {
+  "gs sandhu": {
     "batter_id": 71,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5039,7 +5039,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Gagandeep Singh": {
+  "gagandeep singh": {
     "batter_id": 377,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5054,7 +5054,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "HF Gurney": {
+  "hf gurney": {
     "batter_id": 282,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5069,7 +5069,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "HR Shokeen": {
+  "hr shokeen": {
     "batter_id": 288,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5084,7 +5084,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "HV Patel": {
+  "hv patel": {
     "batter_id": 455,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5099,7 +5099,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Harmeet Singh": {
+  "harmeet singh": {
     "batter_id": 607,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5114,7 +5114,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Harpreet Brar": {
+  "harpreet brar": {
     "batter_id": 280,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5129,7 +5129,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "I Sharma": {
+  "i sharma": {
     "batter_id": 563,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5144,7 +5144,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "I Udana": {
+  "i udana": {
     "batter_id": 193,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5159,7 +5159,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "IC Pandey": {
+  "ic pandey": {
     "batter_id": 340,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5174,7 +5174,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "IS Sodhi": {
+  "is sodhi": {
     "batter_id": 402,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5189,7 +5189,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Imran Tahir": {
+  "imran tahir": {
     "batter_id": 593,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5204,7 +5204,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Iqbal Abdulla": {
+  "iqbal abdulla": {
     "batter_id": 503,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5219,7 +5219,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "J Suchith": {
+  "j suchith": {
     "batter_id": 354,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5234,7 +5234,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "J Syed Mohammad": {
+  "j syed mohammad": {
     "batter_id": 336,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5249,7 +5249,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "J Theron": {
+  "j theron": {
     "batter_id": 549,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5264,7 +5264,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "J Yadav": {
+  "j yadav": {
     "batter_id": 647,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5279,7 +5279,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JA Richardson": {
+  "ja richardson": {
     "batter_id": 204,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5294,7 +5294,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JD Unadkat": {
+  "jd unadkat": {
     "batter_id": 527,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5309,7 +5309,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JDP Oram": {
+  "jdp oram": {
     "batter_id": 236,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5324,7 +5324,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JDS Neesham": {
+  "jds neesham": {
     "batter_id": 523,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5339,7 +5339,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JE Taylor": {
+  "je taylor": {
     "batter_id": 139,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5354,7 +5354,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JJ Bumrah": {
+  "jj bumrah": {
     "batter_id": 299,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5369,7 +5369,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JJ van der Wath": {
+  "jj van der wath": {
     "batter_id": 41,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5384,7 +5384,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JL Pattinson": {
+  "jl pattinson": {
     "batter_id": 74,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5399,7 +5399,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JP Behrendorff": {
+  "jp behrendorff": {
     "batter_id": 469,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5414,7 +5414,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JPR Scantlebury-Searles": {
+  "jpr scantlebury-searles": {
     "batter_id": 224,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5429,7 +5429,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JR Hazlewood": {
+  "jr hazlewood": {
     "batter_id": 429,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5444,7 +5444,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "JW Hastings": {
+  "jw hastings": {
     "batter_id": 146,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5459,7 +5459,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Jaskaran Singh": {
+  "jaskaran singh": {
     "batter_id": 586,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5474,7 +5474,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Joginder Sharma": {
+  "joginder sharma": {
     "batter_id": 488,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5489,7 +5489,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "K Khejroliya": {
+  "k khejroliya": {
     "batter_id": 15,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5504,7 +5504,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "K Santokie": {
+  "k santokie": {
     "batter_id": 538,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5519,7 +5519,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KA Jamieson": {
+  "ka jamieson": {
     "batter_id": 637,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5534,7 +5534,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KAJ Roach": {
+  "kaj roach": {
     "batter_id": 514,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5549,7 +5549,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KC Cariappa": {
+  "kc cariappa": {
     "batter_id": 609,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5564,7 +5564,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KJ Abbott": {
+  "kj abbott": {
     "batter_id": 171,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5579,7 +5579,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KK Ahmed": {
+  "kk ahmed": {
     "batter_id": 384,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5594,7 +5594,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KL Nagarkoti": {
+  "kl nagarkoti": {
     "batter_id": 618,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5609,7 +5609,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KM Asif": {
+  "km asif": {
     "batter_id": 113,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5624,7 +5624,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KMA Paul": {
+  "kma paul": {
     "batter_id": 175,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5639,7 +5639,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KMDN Kulasekara": {
+  "kmdn kulasekara": {
     "batter_id": 258,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5654,7 +5654,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KP Appanna": {
+  "kp appanna": {
     "batter_id": 383,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5669,7 +5669,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KR Sen": {
+  "kr sen": {
     "batter_id": 362,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5684,7 +5684,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "KW Richardson": {
+  "kw richardson": {
     "batter_id": 145,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5699,7 +5699,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Kamran Khan": {
+  "kamran khan": {
     "batter_id": 619,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5714,7 +5714,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Karanveer Singh": {
+  "karanveer singh": {
     "batter_id": 16,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5729,7 +5729,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Kartik Tyagi": {
+  "kartik tyagi": {
     "batter_id": 416,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5744,7 +5744,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Kuldeep Yadav": {
+  "kuldeep yadav": {
     "batter_id": 262,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5759,7 +5759,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "L Ablish": {
+  "l ablish": {
     "batter_id": 548,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5774,7 +5774,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "L Balaji": {
+  "l balaji": {
     "batter_id": 651,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5789,7 +5789,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "L Ngidi": {
+  "l ngidi": {
     "batter_id": 17,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5804,7 +5804,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "LE Plunkett": {
+  "le plunkett": {
     "batter_id": 598,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5819,7 +5819,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "LH Ferguson": {
+  "lh ferguson": {
     "batter_id": 524,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5834,7 +5834,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Ashwin": {
+  "m ashwin": {
     "batter_id": 440,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5849,7 +5849,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Jansen": {
+  "m jansen": {
     "batter_id": 169,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5864,7 +5864,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Kartik": {
+  "m kartik": {
     "batter_id": 179,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5879,7 +5879,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Morkel": {
+  "m morkel": {
     "batter_id": 441,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5894,7 +5894,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Muralitharan": {
+  "m muralitharan": {
     "batter_id": 339,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5909,7 +5909,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Ntini": {
+  "m ntini": {
     "batter_id": 207,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5924,7 +5924,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Prasidh Krishna": {
+  "m prasidh krishna": {
     "batter_id": 405,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5939,7 +5939,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M Theekshana": {
+  "m theekshana": {
     "batter_id": 205,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5954,7 +5954,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "M de Lange": {
+  "m de lange": {
     "batter_id": 57,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5969,7 +5969,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MA Starc": {
+  "ma starc": {
     "batter_id": 119,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5984,7 +5984,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MF Maharoof": {
+  "mf maharoof": {
     "batter_id": 243,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -5999,7 +5999,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MG Johnson": {
+  "mg johnson": {
     "batter_id": 7,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6014,7 +6014,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MG Neser": {
+  "mg neser": {
     "batter_id": 200,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6029,7 +6029,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MM Patel": {
+  "mm patel": {
     "batter_id": 201,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6044,7 +6044,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MM Sharma": {
+  "mm sharma": {
     "batter_id": 223,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6059,7 +6059,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "MS Gony": {
+  "ms gony": {
     "batter_id": 310,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6074,7 +6074,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mohammad Asif": {
+  "mohammad asif": {
     "batter_id": 498,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6089,7 +6089,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mohammed Shami": {
+  "mohammed shami": {
     "batter_id": 25,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6104,7 +6104,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mohammed Siraj": {
+  "mohammed siraj": {
     "batter_id": 152,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6119,7 +6119,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mohsin Khan": {
+  "mohsin khan": {
     "batter_id": 451,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6134,7 +6134,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mujeeb Ur Rahman": {
+  "mujeeb ur rahman": {
     "batter_id": 434,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6149,7 +6149,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mukesh Choudhary": {
+  "mukesh choudhary": {
     "batter_id": 353,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6164,7 +6164,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Mustafizur Rahman": {
+  "mustafizur rahman": {
     "batter_id": 628,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6179,7 +6179,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "ND Doshi": {
+  "nd doshi": {
     "batter_id": 19,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6194,7 +6194,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "NM Coulter-Nile": {
+  "nm coulter-nile": {
     "batter_id": 504,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6209,7 +6209,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "NT Ellis": {
+  "nt ellis": {
     "batter_id": 72,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6224,7 +6224,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Navdeep Saini": {
+  "navdeep saini": {
     "batter_id": 555,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6239,7 +6239,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "O Thomas": {
+  "o thomas": {
     "batter_id": 508,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6254,7 +6254,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "OC McCoy": {
+  "oc mccoy": {
     "batter_id": 357,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6269,7 +6269,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "OF Smith": {
+  "of smith": {
     "batter_id": 39,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6284,7 +6284,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "P Amarnath": {
+  "p amarnath": {
     "batter_id": 485,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6299,7 +6299,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "P Awana": {
+  "p awana": {
     "batter_id": 96,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6314,7 +6314,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "P Parameswaran": {
+  "p parameswaran": {
     "batter_id": 75,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6329,7 +6329,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "P Sahu": {
+  "p sahu": {
     "batter_id": 345,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6344,7 +6344,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "P Suyal": {
+  "p suyal": {
     "batter_id": 266,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6359,7 +6359,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "PJ Sangwan": {
+  "pj sangwan": {
     "batter_id": 109,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6374,7 +6374,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "PP Ojha": {
+  "pp ojha": {
     "batter_id": 491,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6389,7 +6389,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "PV Tambe": {
+  "pv tambe": {
     "batter_id": 516,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6404,7 +6404,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "PVD Chameera": {
+  "pvd chameera": {
     "batter_id": 50,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6419,7 +6419,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "PWH de Silva": {
+  "pwh de silva": {
     "batter_id": 142,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6434,7 +6434,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Pankaj Singh": {
+  "pankaj singh": {
     "batter_id": 473,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6449,7 +6449,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Bhatia": {
+  "r bhatia": {
     "batter_id": 605,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6464,7 +6464,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Dhawan": {
+  "r dhawan": {
     "batter_id": 261,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6479,7 +6479,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Rampaul": {
+  "r rampaul": {
     "batter_id": 10,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6494,7 +6494,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Sharma": {
+  "r sharma": {
     "batter_id": 591,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6509,7 +6509,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Shepherd": {
+  "r shepherd": {
     "batter_id": 301,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6524,7 +6524,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Shukla": {
+  "r shukla": {
     "batter_id": 268,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6539,7 +6539,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "R Vinay Kumar": {
+  "r vinay kumar": {
     "batter_id": 127,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6554,7 +6554,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RD Chahar": {
+  "rd chahar": {
     "batter_id": 147,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6569,7 +6569,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RG More": {
+  "rg more": {
     "batter_id": 126,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6584,7 +6584,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RJ Harris": {
+  "rj harris": {
     "batter_id": 240,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6599,7 +6599,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RJ Peterson": {
+  "rj peterson": {
     "batter_id": 478,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6614,7 +6614,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RP Meredith": {
+  "rp meredith": {
     "batter_id": 321,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6629,7 +6629,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RP Singh": {
+  "rp singh": {
     "batter_id": 183,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6644,7 +6644,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RR Powar": {
+  "rr powar": {
     "batter_id": 79,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6659,7 +6659,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "RR Raje": {
+  "rr raje": {
     "batter_id": 122,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6674,7 +6674,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Rashid Khan": {
+  "rashid khan": {
     "batter_id": 464,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6689,7 +6689,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Rasikh Salam": {
+  "rasikh salam": {
     "batter_id": 531,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6704,7 +6704,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Ravi Bishnoi": {
+  "ravi bishnoi": {
     "batter_id": 487,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6719,7 +6719,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Aravind": {
+  "s aravind": {
     "batter_id": 606,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6734,7 +6734,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Badree": {
+  "s badree": {
     "batter_id": 241,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6749,7 +6749,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Kaul": {
+  "s kaul": {
     "batter_id": 162,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6764,7 +6764,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Kaushik": {
+  "s kaushik": {
     "batter_id": 177,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6779,7 +6779,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Ladda": {
+  "s ladda": {
     "batter_id": 82,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6794,7 +6794,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Lamichhane": {
+  "s lamichhane": {
     "batter_id": 597,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6809,7 +6809,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Nadeem": {
+  "s nadeem": {
     "batter_id": 227,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6824,7 +6824,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Narwal": {
+  "s narwal": {
     "batter_id": 21,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6839,7 +6839,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Randiv": {
+  "s randiv": {
     "batter_id": 482,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6854,7 +6854,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Sreesanth": {
+  "s sreesanth": {
     "batter_id": 472,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6869,7 +6869,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "S Tyagi": {
+  "s tyagi": {
     "batter_id": 157,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6884,7 +6884,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SA Abbott": {
+  "sa abbott": {
     "batter_id": 52,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6899,7 +6899,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SB Bangar": {
+  "sb bangar": {
     "batter_id": 124,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6914,7 +6914,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SB Jakati": {
+  "sb jakati": {
     "batter_id": 564,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6929,7 +6929,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SC Kuggeleijn": {
+  "sc kuggeleijn": {
     "batter_id": 23,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6944,7 +6944,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SE Bond": {
+  "se bond": {
     "batter_id": 225,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6959,7 +6959,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SJ Srivastava": {
+  "sj srivastava": {
     "batter_id": 602,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6974,7 +6974,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SK Trivedi": {
+  "sk trivedi": {
     "batter_id": 393,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -6989,7 +6989,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SK Warne": {
+  "sk warne": {
     "batter_id": 256,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7004,7 +7004,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SL Malinga": {
+  "sl malinga": {
     "batter_id": 432,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7019,7 +7019,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SM Boland": {
+  "sm boland": {
     "batter_id": 641,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7034,7 +7034,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SM Harwood": {
+  "sm harwood": {
     "batter_id": 176,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7049,7 +7049,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SMSM Senanayake": {
+  "smsm senanayake": {
     "batter_id": 43,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7064,7 +7064,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SN Thakur": {
+  "sn thakur": {
     "batter_id": 583,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7079,7 +7079,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SS Cottrell": {
+  "ss cottrell": {
     "batter_id": 209,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7094,7 +7094,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SS Sarkar": {
+  "ss sarkar": {
     "batter_id": 95,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7109,7 +7109,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "ST Jayasuriya": {
+  "st jayasuriya": {
     "batter_id": 138,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7124,7 +7124,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "SW Tait": {
+  "sw tait": {
     "batter_id": 105,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7139,7 +7139,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Sandeep Sharma": {
+  "sandeep sharma": {
     "batter_id": 435,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7154,7 +7154,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Shivam Mavi": {
+  "shivam mavi": {
     "batter_id": 518,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7169,7 +7169,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Shoaib Ahmed": {
+  "shoaib ahmed": {
     "batter_id": 81,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7184,7 +7184,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Simarjeet Singh": {
+  "simarjeet singh": {
     "batter_id": 244,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7199,7 +7199,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "T Natarajan": {
+  "t natarajan": {
     "batter_id": 397,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7214,7 +7214,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "T Thushara": {
+  "t thushara": {
     "batter_id": 59,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7229,7 +7229,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TA Boult": {
+  "ta boult": {
     "batter_id": 190,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7244,7 +7244,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TG Southee": {
+  "tg southee": {
     "batter_id": 347,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7259,7 +7259,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TK Curran": {
+  "tk curran": {
     "batter_id": 29,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7274,7 +7274,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TP Sudhindra": {
+  "tp sudhindra": {
     "batter_id": 349,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7289,7 +7289,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TS Mills": {
+  "ts mills": {
     "batter_id": 182,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7304,7 +7304,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "TU Deshpande": {
+  "tu deshpande": {
     "batter_id": 158,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7319,7 +7319,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Tejas Baroka": {
+  "tejas baroka": {
     "batter_id": 88,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7334,7 +7334,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "UT Yadav": {
+  "ut yadav": {
     "batter_id": 302,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7349,7 +7349,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Umar Gul": {
+  "umar gul": {
     "batter_id": 400,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7364,7 +7364,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Umran Malik": {
+  "umran malik": {
     "batter_id": 332,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7379,7 +7379,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "V Pratap Singh": {
+  "v pratap singh": {
     "batter_id": 233,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7394,7 +7394,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VG Arora": {
+  "vg arora": {
     "batter_id": 326,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7409,7 +7409,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VR Aaron": {
+  "vr aaron": {
     "batter_id": 1,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7424,7 +7424,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VRV Singh": {
+  "vrv singh": {
     "batter_id": 382,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7439,7 +7439,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VS Malik": {
+  "vs malik": {
     "batter_id": 351,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7454,7 +7454,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VS Yeligati": {
+  "vs yeligati": {
     "batter_id": 648,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7469,7 +7469,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "VY Mahesh": {
+  "vy mahesh": {
     "batter_id": 427,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7484,7 +7484,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "WPUJC Vaas": {
+  "wpujc vaas": {
     "batter_id": 599,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7499,7 +7499,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "YA Abdulla": {
+  "ya abdulla": {
     "batter_id": 37,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7514,7 +7514,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "YS Chahal": {
+  "ys chahal": {
     "batter_id": 322,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
@@ -7529,7 +7529,7 @@
     "True SR_powerplay": 125.0,
     "True Avg_powerplay": 45.0
   },
-  "Yash Dayal": {
+  "yash dayal": {
     "batter_id": 271,
     "Active Ratio_death": 0.0,
     "Striking Ratio_death": 0.0,
