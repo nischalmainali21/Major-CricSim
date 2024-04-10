@@ -596,13 +596,18 @@ class MatchSimulationAPIView(APIView):
             # Now call simulate_match with the combined lists
             match_dataframe = simulate_match(batsmen1, bowlers1,batsmen2, bowlers2, venue1)
             
-            match_dataframe['cumulative_runs'] = match_dataframe['total_run'].cumsum()
+            innings1 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 1']
+            innings2 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 2']
 
-            # Separate the match into innings
-            innings1 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 1'].to_dict(orient='records')
-            innings2 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 2'].to_dict(orient='records')
+            # Calculate cumulative runs for each innings separately
+            innings1['cumulative_runs'] = innings1['total_run'].cumsum()
+            innings2['cumulative_runs'] = innings2['total_run'].cumsum()
+
+            # Convert innings data to dictionaries
+            innings1_data = innings1.to_dict(orient='records')
+            innings2_data = innings2.to_dict(orient='records')
 
             # Return the innings data
-            return Response({'innings1': innings1, 'innings2': innings2})
+            return Response({'innings1': innings1_data, 'innings2': innings2_data})
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
