@@ -16,6 +16,7 @@ pip-delete-this-directory.txt
 
 final_stats_data.csv
 cleaned_stats_data.csv
+complete_ball_by_ball.csv
 
 #django
 *.log
