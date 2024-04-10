@@ -596,9 +596,13 @@ class MatchSimulationAPIView(APIView):
             # Now call simulate_match with the combined lists
             match_dataframe = simulate_match(batsmen1, bowlers1,batsmen2, bowlers2, venue1)
             
-            match_data = match_dataframe.to_dict(orient='records')
+            match_dataframe['cumulative_runs'] = match_dataframe['total_run'].cumsum()
 
-            # You can return the DataFrame as JSON
-            return Response(match_data)
+            # Separate the match into innings
+            innings1 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 1'].to_dict(orient='records')
+            innings2 = match_dataframe[match_dataframe['BattingTeam'] == 'Team 2'].to_dict(orient='records')
+
+            # Return the innings data
+            return Response({'innings1': innings1, 'innings2': innings2})
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
