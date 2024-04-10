@@ -595,8 +595,10 @@ class MatchSimulationAPIView(APIView):
 
             # Now call simulate_match with the combined lists
             match_dataframe = simulate_match(batsmen1, bowlers1,batsmen2, bowlers2, venue1)
+            
+            match_data = match_dataframe.to_dict(orient='records')
 
             # You can return the DataFrame as JSON
-            return Response(match_dataframe.to_json())
+            return Response(match_data)
         else:
             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
