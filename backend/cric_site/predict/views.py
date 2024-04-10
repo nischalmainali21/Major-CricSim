@@ -14,8 +14,8 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 import random
 
 # Load model
-model = MyLSTMWithSoftmax(96, 64, 8)
-state_dict = torch.load("static_folder/cric_model_2nd.pth")
+model = MyLSTMWithSoftmax(96, 128, 8,2)
+state_dict = torch.load("static_folder/cric_model_3rd.pth")
 model.load_state_dict(state_dict)
 
 # Importing Prediction Data
