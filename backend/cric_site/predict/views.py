@@ -130,7 +130,7 @@ class PredictionAPIView(APIView):
                 y_pred = F.softmax(out, dim=1)
                 our_predictions = torch.argmax(y_pred, dim=1).item()
                 if our_predictions in [4, 6]:
-                    if random.random() < 0.6:
+                    if random.random() < 0.55:
                         our_predictions -= 2
                 if our_predictions in [0]:
                     if random.random() < 0.6:
