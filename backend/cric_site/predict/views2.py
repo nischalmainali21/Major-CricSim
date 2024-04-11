@@ -20,6 +20,9 @@ dfbatting = pd.read_csv('static_folder/all_data/all_bat.csv')
 dfbowling = pd.read_csv('static_folder/all_data/all_bowl.csv')
 dfvenue= pd.read_csv('static_folder/all_data/venue.csv')
 dfplayervsplayer= pd.read_csv('static_folder/all_data/pvp_all.csv')
+dfball_venue=pd.read_csv("static_folder/all_data/venue_ballnumber.csv")
+dfbatter_over=pd.read_csv("static_folder/all_data/batterbyover.csv")
+dfbowler_over=pd.read_csv("static_folder/all_data/bowlerbyover.csv")
 
 class Player:
     def __init__(self, name, player_type= None):
@@ -27,7 +30,154 @@ class Player:
         self.player_type = player_type
     def __str__(self):
         return f"Player Name: {self.name}, Type: {self.player_type}"
+class Batsman(Player):
+    instances = []
+
+    def __init__(self, name, dfDeliveries, team, consistency_score=1.0, **kwargs):
+        super().__init__(name, "batsman")
+        self.team = team
+        self.consistency_score = consistency_score
+        # Batsman-specific performance attributes and phase attributes initialization
+        # Skipped for brevity
+        self.active_ratio_death = kwargs.get('Active Ratio_death')
+        self.striking_ratio_death = kwargs.get('Striking Ratio_death')
+        self.true_sr_death = kwargs.get('True SR_death')
+        self.true_avg_death = kwargs.get('True Avg_death')
+        self.active_ratio_middle = kwargs.get('Active Ratio_middle')
+        self.striking_ratio_middle = kwargs.get('Striking Ratio_middle')
+        self.true_sr_middle = kwargs.get('True SR_middle')
+        self.true_avg_middle = kwargs.get('True Avg_middle')
+        self.active_ratio_powerplay = kwargs.get('Active Ratio_powerplay')
+        self.striking_ratio_powerplay = kwargs.get('Striking Ratio_powerplay')
+        self.true_sr_powerplay = kwargs.get('True SR_powerplay')
+        self.true_avg_powerplay = kwargs.get('True Avg_powerplay')
+        self.dfDeliveries = dfDeliveries[dfDeliveries['batter'] == self.name]
+        self.dfData = dfbatter_over[dfbatter_over['BatterName'] == self.name]
+        Batsman.instances.append(self)
+        self.phase_attributes = {
+            'powerplay': {},
+            'middle': {},
+            'death': {}
+        }
+        for phase in self.phase_attributes:
+            for key, value in kwargs.items():
+                if key.lower().endswith(phase):
+                    self.phase_attributes[phase][key] = value
+        
+        #Batsman.instances.append(self)
     
+    def get_phase_modifier(self, phase):
+        attributes = self.phase_attributes.get(phase, {})
+        if not attributes:
+            return 1  # Default modifier if phase is not recognized
+        modifier = sum(attributes.values()) / len(attributes)
+        return modifier
+    
+    # Other methods skipped for brevity
+
+    def calculate_probabilities(self, over_number):
+        """
+        Calculate base probabilities for this batsman in a given over from the DataFrame.
+        
+        :param over_number: The over number (1-20 in T20 cricket).
+        
+        :return: A dictionary with probabilities for each scoring outcome or a message if no data available.
+        """
+        # Filter the DataFrame for the given over number
+        batsman_data = self.dfData[self.dfData['OverNo'] == over_number]
+        
+        if batsman_data.empty:
+            return {}
+        
+        # Calculate probabilities
+        probabilities = {}
+        outcomes = ['Dot', '1', '2', '3', '4', '5', '6', 'Wickets']
+        total_balls = batsman_data['TotalBalls'].iloc[0] if not batsman_data.empty else 0
+        
+        for outcome in outcomes:
+            if total_balls > 0:
+                probabilities[outcome] = batsman_data[outcome].iloc[0] / total_balls
+            else:
+                probabilities[outcome] = 0
+        
+        return probabilities
+
+class Bowler(Player):
+    instances = []
+
+    def __init__(self, name, dfDeliveries, team, consistency_score=1.0, **kwargs):
+        super().__init__(name, "bowler")
+        self.team = team
+        self.consistency_score = consistency_score
+        self.dfDeliveries = dfDeliveries[dfDeliveries['bowler'] == self.name]
+        self.dfData = dfbowler_over[dfbowler_over['BowlerName'] == self.name]  # Assuming dfDeliveries contains all necessary data
+        # Bowler-specific performance attributes initialization
+        # Skipped for brevity
+        self.true_economy_death = kwargs.get('True Economy_death')
+        self.true_sr_death = kwargs.get('True SR_death')
+        self.dot_percentage_death = kwargs.get('dotpercentage_death')
+        self.containment_death = kwargs.get('Containment_death')
+        self.true_economy_middle = kwargs.get('True Economy_middle')
+        self.true_sr_middle = kwargs.get('True SR_middle')
+        self.dot_percentage_middle = kwargs.get('dotpercentage_middle')
+        self.containment_middle = kwargs.get('Containment_middle')
+        self.true_economy_powerplay = kwargs.get('True Economy_powerplay')
+        self.true_sr_powerplay = kwargs.get('True SR_powerplay')
+        self.dot_percentage_powerplay = kwargs.get('dotpercentage_powerplay')
+        self.containment_powerplay = kwargs.get('Containment_powerplay')
+        self.dfData = dfbowler_over[dfbowler_over['BowlerName'] == self.name]
+
+        # Initialize phase attributes based on kwargs
+        self.phase_attributes = {
+            'powerplay': {},
+            'middle': {},
+            'death': {}
+        }
+        for phase in self.phase_attributes:
+            for key, value in kwargs.items():
+                if key.lower().endswith(phase):
+                    self.phase_attributes[phase][key] = value
+
+        Bowler.instances.append(self)
+
+    def get_phase_modifier(self, phase):
+        attributes = self.phase_attributes.get(phase, {})
+        if not attributes:
+            return 1  # Default modifier if phase is not recognized
+        modifier = sum(attributes.values()) / len(attributes)
+        return modifier
+
+        Bowler.instances.append(self)
+    
+    # Other methods skipped for brevity
+
+    def calculate_probabilities(self, over_number):
+        """
+        Calculate base probabilities for this bowler in a given over from the DataFrame.
+        
+        :param over_number: The over number (1-20 in T20 cricket).
+        
+        :return: A dictionary with probabilities for each scoring outcome or a message if no data available.
+        """
+        # Filter the DataFrame for the given over number
+        bowler_data = self.dfData[self.dfData['OverNo'] == over_number]
+        
+        if bowler_data.empty:
+            return {}
+        
+        # Calculate probabilities
+        probabilities = {}
+        outcomes = ['Dot', '1', '2', '3', '4', '5', '6', 'Wickets']
+        total_balls = bowler_data['TotalBalls'].iloc[0] if not bowler_data.empty else 0
+        
+        for outcome in outcomes:
+            if total_balls > 0:
+                probabilities[outcome] = bowler_data[outcome].iloc[0] / total_balls
+            else:
+                probabilities[outcome] = 0
+        
+        return probabilities
+
 class Venue:
     instances = []
     
@@ -46,51 +196,45 @@ class Venue:
         self.boundary_frequency = boundary_frequency
         self.pitch_condition_factor = self.calculate_pitch_factor()  
         self.instances.append(self)
-        # Store the DataFrame for deliveries specific to this venue
         self.dfDeliveries = dfDeliveries[dfDeliveries['Venue'] == self.venue_name]
+
+        self.dfData = dfball_venue[dfball_venue['Venue'] == self.venue_name]  # Assuming dfDeliveries is the correct DataFrame to use here
 
     def calculate_pitch_factor(self):
         return self.average_score / 120
-
-    def calculate_base_probabilities(self, over_number, ball_number=None):
-        # Filter for the specific over and (optional) ball number
-        if ball_number is not None:
-            target_ball = over_number * 6 + ball_number
-            filtered_deliveries = self.dfDeliveries[self.dfDeliveries['calculated_ball'] == target_ball]
-        else:
-            start_ball = over_number * 6
-            end_ball = over_number * 6 + 5
-            filtered_deliveries = self.dfDeliveries[(self.dfDeliveries['calculated_ball'] >= start_ball) & (self.dfDeliveries['calculated_ball'] <= end_ball)]
-
-        # Calculate probabilities
-        outcomes = ['dot', '1', '2', '3', '4', '5', '6', 'wicket']
-        counts = {outcome: 0 for outcome in outcomes}
-        # Update counts based on the dataframe
-        for outcome in outcomes:
-            if outcome == 'dot':
-                counts[outcome] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == 0]) + len(filtered_deliveries[filtered_deliveries['extras_run'] == 0])
-            elif outcome == 'wicket':
-                counts[outcome] = len(filtered_deliveries[filtered_deliveries['isWicketDelivery'] == 1])
-            else:
-                counts[outcome] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == int(outcome)])
-
-        total_counts = sum(counts.values())
-        probabilities = {outcome: count / total_counts for outcome, count in counts.items() if total_counts > 0}
-
-        # Adjust if sum of probabilities is not 1 due to rounding
-        probability_sum = sum(probabilities.values())
-        if probability_sum > 0 and probability_sum != 1:
-            probabilities = {outcome: prob / probability_sum for outcome, prob in probabilities.items()}
-        
-        return probabilities if total_counts > 0 else None
 
     @classmethod
     def print_all_instances(cls):
         for instance in cls.instances:
             print(f"{instance.venue_name}: Pitch Condition Factor = {instance.pitch_condition_factor}")
+            
+    def venue_base_probabilities(self, over_number, ball_number=None):
+        # Ensure 'Ball_Number' column exists
+        # if 'Ball_Number' not in self.dfData.columns:
+        #     self.dfData['Ball_Number'] = (self.dfData['overs'] - 1) * 6 + self.dfData['ball_in_over']  # Adjust column names as necessary
 
-# You need to add a calculated_ball column to dfDeliveries before creating Venue instances:
-# dfDeliveries['calculated_ball'] = dfDeliveries['overs'] * 6 + dfDeliveries['ballnumber']
+        # Calculate the ball_number if not provided
+        if ball_number is None:
+            ball_number = (over_number ) * 6 + 1  # Assuming over_number starts at 1 and 6 balls per over
+
+        # Filter for the specific ball_number
+        ball_data = self.dfData[self.dfData['Ball_Number'] == ball_number]
+
+        if ball_data.empty:
+            return {} 
+
+        # Calculate probabilities
+        probabilities = {}
+        outcomes = ['0', '1', '2', '3', '4', '5', '6', 'Wickets']
+        total_balls = ball_data['TotalBalls'].iloc[0] if not ball_data.empty else 0
+
+        for outcome in outcomes:
+            probabilities[outcome] = ball_data[outcome].iloc[0] / total_balls if total_balls > 0 else 0
+
+        return probabilities
+
+
+
 def get_venue_features(dfvenue, dfDeliveries, venue_name):
     # Filter the dataframe for the given venue_name
     venue_data = dfvenue[dfvenue['venue_name'] == venue_name].iloc[0]
@@ -118,196 +262,7 @@ def get_venue_features(dfvenue, dfDeliveries, venue_name):
     
     return venue
 
-class Batsman(Player):
-    instances = []
-    def __init__(self, name, team,conistency_score=1.0, **kwargs):
-        super().__init__(name, "batsman")
-        self.team = team  # Include team attribute
-        self.active_ratio_death = kwargs.get('Active Ratio_death')
-        self.striking_ratio_death = kwargs.get('Striking Ratio_death')
-        self.true_sr_death = kwargs.get('True SR_death')
-        self.true_avg_death = kwargs.get('True Avg_death')
-        self.active_ratio_middle = kwargs.get('Active Ratio_middle')
-        self.striking_ratio_middle = kwargs.get('Striking Ratio_middle')
-        self.true_sr_middle = kwargs.get('True SR_middle')
-        self.true_avg_middle = kwargs.get('True Avg_middle')
-        self.active_ratio_powerplay = kwargs.get('Active Ratio_powerplay')
-        self.striking_ratio_powerplay = kwargs.get('Striking Ratio_powerplay')
-        self.true_sr_powerplay = kwargs.get('True SR_powerplay')
-        self.true_avg_powerplay = kwargs.get('True Avg_powerplay')
-        self.instances.append(self)
-        self.consistency_score = 1
-        self.dfDeliveries = dfDeliveries[dfDeliveries['batter'] == self.name].copy()
 
-        
-        # Include other attributes...
-        self.instances.append(self)
-        self.phase_attributes = {
-            'powerplay': {},
-            'middle': {},
-            'death': {}
-        }
-        for phase in self.phase_attributes:
-            for key in kwargs:
-                if key.lower().endswith(phase):
-                    self.phase_attributes[phase][key] = kwargs[key]
-    def calculate_base_probabilities(self, over_number):
-    # Calculate the total ball number for easier filtering
-        self.dfDeliveries['calculated_ball'] = self.dfDeliveries['overs'] * 6 + self.dfDeliveries['ballnumber']
-        
-        # Filter for the specific over
-        start_ball = over_number * 6
-        end_ball = over_number * 6 + 5
-        filtered_deliveries = self.dfDeliveries[(self.dfDeliveries['calculated_ball'] >= start_ball) & (self.dfDeliveries['calculated_ball'] <= end_ball)]
-
-        # Calculate probabilities
-        outcomes = ['dot', '1', '2', '3', '4', '6', 'wicket']
-        counts = {outcome: 0 for outcome in outcomes}
-
-        # Update counts based on the dataframe
-        counts['dot'] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == 0])
-        counts['wicket'] = len(filtered_deliveries[filtered_deliveries['isWicketDelivery'] == 1])
-        for outcome in outcomes:
-            if outcome not in ['dot', 'wicket']:
-                counts[outcome] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == int(outcome)])
-
-        total_counts = sum(counts.values())
-        probabilities = {outcome: count / total_counts for outcome, count in counts.items() if total_counts > 0}
-
-        # Normalize probabilities if the sum is not exactly 1 due to rounding
-        probability_sum = sum(probabilities.values())
-        if probability_sum > 0 and probability_sum != 1:
-            probabilities = {outcome: prob / probability_sum for outcome, prob in probabilities.items()}
-        
-        return probabilities if total_counts > 0 else None
-
-    def get_phase_modifier(self, phase):
-        if phase == 'powerplay':
-            attributes = {
-                'active_ratio': self.active_ratio_powerplay,
-                'striking_ratio': self.striking_ratio_powerplay,
-                'true_sr': self.true_sr_powerplay,
-                'true_avg': self.true_avg_powerplay
-            }
-        elif phase == 'middle':
-            attributes = {
-                'active_ratio': self.active_ratio_middle,
-                'striking_ratio': self.striking_ratio_middle,
-                'true_sr': self.true_sr_middle,
-                'true_avg': self.true_avg_middle
-            }
-        elif phase == 'death':
-            attributes = {
-                'active_ratio': self.active_ratio_death,
-                'striking_ratio': self.striking_ratio_death,
-                'true_sr': self.true_sr_death,
-                'true_avg': self.true_avg_death
-            }
-        else:
-            return 1  # Default modifier if phase is not recognized
-
-        # Example calculation, replace with your actual logic
-        # This is just a placeholder to demonstrate accessing the attributes
-        modifier = sum(attributes.values()) / len(attributes)
-        return modifier
-        
-        
-
-    # Include other methods...
-
-class Bowler(Player):
-    instances = []
-    def __init__(self, name, team,consistency_score=1.0, **kwargs):
-        super().__init__(name, "bowler")
-        self.team = team  # Include team attribute
-        self.true_economy_death = kwargs.get('True Economy_death')
-        self.true_sr_death = kwargs.get('True SR_death')
-        self.dot_percentage_death = kwargs.get('dotpercentage_death')
-        self.containment_death = kwargs.get('Containment_death')
-        self.true_economy_middle = kwargs.get('True Economy_middle')
-        self.true_sr_middle = kwargs.get('True SR_middle')
-        self.dot_percentage_middle = kwargs.get('dotpercentage_middle')
-        self.containment_middle = kwargs.get('Containment_middle')
-        self.true_economy_powerplay = kwargs.get('True Economy_powerplay')
-        self.true_sr_powerplay = kwargs.get('True SR_powerplay')
-        self.dot_percentage_powerplay = kwargs.get('dotpercentage_powerplay')
-        self.containment_powerplay = kwargs.get('Containment_powerplay')
-        self.instances.append(self)
-        self.consistency_score = 1
-        self.dfDeliveries = dfDeliveries[dfDeliveries['bowler'] == self.name].copy()
-
-        # Include other attributes...
-        self.instances.append(self)
-        self.phase_attributes = {
-            'powerplay': {},
-            'middle': {},
-            'death': {}
-        }
-        for phase in self.phase_attributes:
-            for key in kwargs:
-                if key.lower().endswith(phase):
-                    self.phase_attributes[phase][key] = kwargs[key]
-    def get_phase_modifier(self, phase):
-        if phase == 'powerplay':
-            attributes = {
-                'active_ratio': self.active_ratio_powerplay,
-                'striking_ratio': self.striking_ratio_powerplay,
-                'true_sr': self.true_sr_powerplay,
-                'true_avg': self.true_avg_powerplay
-            }
-        elif phase == 'middle':
-            attributes = {
-                'active_ratio': self.active_ratio_middle,
-                'striking_ratio': self.striking_ratio_middle,
-                'true_sr': self.true_sr_middle,
-                'true_avg': self.true_avg_middle
-            }
-        elif phase == 'death':
-            attributes = {
-                'active_ratio': self.active_ratio_death,
-                'striking_ratio': self.striking_ratio_death,
-                'true_sr': self.true_sr_death,
-                'true_avg': self.true_avg_death
-            }
-        else:
-            return 1  # Default modifier if phase is not recognized
-
-        # Example calculation, replace with your actual logic
-        # This is just a placeholder to demonstrate accessing the attributes
-        modifier = sum(attributes.values()) / len(attributes)
-        return modifier
-    def calculate_base_probabilities(self, over_number):
-        # Ensure 'calculated_ball' column exists or create it
-        if 'calculated_ball' not in self.dfDeliveries.columns:
-            self.dfDeliveries['calculated_ball'] = self.dfDeliveries['overs'] * 6 + self.dfDeliveries['ballnumber']
-        
-        # Filter for the specific over
-        start_ball = over_number * 6
-        end_ball = over_number * 6 + 5
-        filtered_deliveries = self.dfDeliveries[(self.dfDeliveries['calculated_ball'] >= start_ball) & (self.dfDeliveries['calculated_ball'] <= end_ball)]
-
-        # Calculate probabilities for outcomes
-        outcomes = ['dot', '1', '2', '3', '4', '6', 'wicket']
-        counts = {outcome: 0 for outcome in outcomes}
-
-        counts['dot'] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == 0])
-        counts['wicket'] = len(filtered_deliveries[filtered_deliveries['isWicketDelivery'] == 1])
-        for outcome in outcomes:
-            if outcome not in ['dot', 'wicket']:
-                counts[outcome] = len(filtered_deliveries[filtered_deliveries['batsman_run'] == int(outcome)])
-
-        total_counts = sum(counts.values())
-        probabilities = {outcome: count / total_counts for outcome, count in counts.items() if total_counts > 0}
-
-        # Normalize probabilities to ensure their sum equals 1
-        probability_sum = sum(probabilities.values())
-        if probability_sum > 0 and probability_sum != 1:
-            probabilities = {outcome: prob / probability_sum for outcome, prob in probabilities.items()}
-        
-        return probabilities if total_counts > 0 else None
-
-        
-    # Include other methods...
 
 def get_player_all_profiles(playing_xi_team, dfbatting, dfbowling):
     # Initialize empty dicts to hold player profiles
@@ -330,7 +285,131 @@ def get_player_all_profiles(playing_xi_team, dfbatting, dfbowling):
                 player_profiles[player]['bowling'] = dfbowling[dfbowling['bowler'] == player].to_dict('records')[0]
 
     return player_profiles
-dfDeliveries['calculated_ball'] = dfDeliveries['overs'] * 6 + dfDeliveries['ballnumber']
+class MatchDynamics:
+    def __init__(self, current_run_rate=0.0, required_run_rate=8.5, wickets_left=1, overs_remaining=19, weather_condition="Ok", match_pressure="Medium", crowd_support="Neutral"):
+        self.current_run_rate = current_run_rate
+        self.required_run_rate = required_run_rate
+        self.wickets_left = wickets_left
+        self.overs_remaining = overs_remaining
+        self.weather_condition = weather_condition
+        self.match_pressure = match_pressure
+        self.crowd_support = crowd_support
+
+    def calculate_dynamics_probabilities(self):
+        """
+        Adjust probabilities based on match dynamics such as current and required run rates,
+        weather conditions, match pressure, and crowd support.
+        """
+        adjustments = {}
+        self.adjust_match_pressure() 
+
+        # Adjustments based on run rates
+        if self.required_run_rate is not None:  # Relevant in second innings
+            rate_difference = self.required_run_rate - self.current_run_rate
+            if rate_difference > 2:
+                adjustments["pressure"] = "High"
+            elif rate_difference < -2:
+                adjustments["pressure"] = "Low"
+            else:
+                adjustments["pressure"] = "Medium"
+
+        # Adjustments based on weather conditions
+        if self.weather_condition == "Rainy":
+            adjustments["batting_difficulty"] = 1.1  # Example: batting becomes 10% harder
+        elif self.weather_condition == "Dew":
+            adjustments["bowling_difficulty"] = 1.05 
+            # Example: bowling becomes 5% harder
+        elif self.weather_condition == "Ok":
+            adjustments["bowling_difficulty"] = 1.0 
+        
+        # Adjustments based on match pressure
+        if self.match_pressure == "High":
+            adjustments["risk_factor"] = 1.12  # Players are more likely to take risks
+        elif self.match_pressure == "Low":
+            adjustments["risk_factor"] = 0.88  # Players are less likely to take risks
+
+        # Adjustments based on crowd support
+        if self.crowd_support == "Home":
+            adjustments["morale_boost"] = 1.1  # Home team gets a morale boost
+        elif self.crowd_support == "Away":
+            adjustments["morale_boost"] = 0.9  # Away team might be slightly demoralized
+        
+        return adjustments
+
+
+    def _base_probabilities(self):
+        """
+        Defines the base probabilities without considering the dynamics.
+
+        :return: A dictionary with base probabilities for scoring outcomes.
+        """
+        return {'0': 0.2, '1': 0.3, '2': 0.1, '3': 0.05, '4': 0.2, '5': 0.05, '6': 0.1, 'Wickets': 0.1}
+
+    def _adjust_for_run_rate(self, probabilities):
+        """
+        Adjusts probabilities based on the required run rate and current run rate.
+
+        :param probabilities: The current probabilities dictionary.
+        :return: An adjusted probabilities dictionary.
+        """
+        # Example adjustment
+        if self.required_run_rate > self.current_run_rate:
+            probabilities['6'] += 0.05  # Increase the probability of hitting a six
+            probabilities['0'] -= 0.05  # Decrease the probability of scoring no run
+        return probabilities
+
+    def _adjust_for_weather(self, probabilities):
+        """
+        Adjusts probabilities based on weather conditions.
+
+        :param probabilities: The current probabilities dictionary.
+        :return: An adjusted probabilities dictionary.
+        """
+        if self.weather_condition == "Rainy":
+            probabilities['Wickets'] += 0.05  # Increase the chance of getting out
+            probabilities['4'] -= 0.05  # Decrease the chance of hitting a four
+        return probabilities
+
+    def _adjust_for_pressure(self, probabilities):
+        """
+        Adjusts probabilities based on the match pressure.
+
+        :param probabilities: The current probabilities dictionary.
+        :return: An adjusted probabilities dictionary.
+        """
+        if self.match_pressure == "High":
+            probabilities['Wickets'] += 0.1  # Increase the chance of getting out under high pressure
+            probabilities['1'] -= 0.1  # Decrease the chance of taking singles
+        return probabilities
+
+    def adjust_match_pressure(self):
+        """Adjust match pressure based on current run rate, required run rate, and wickets left."""
+        if self.required_run_rate is None:
+            self.match_pressure = "Medium"
+            return
+
+        rate_difference = self.required_run_rate - self.current_run_rate
+        pressure_based_on_rate = "Medium"
+        if rate_difference > 2:
+            pressure_based_on_rate = "High"
+        elif rate_difference < -2:
+            pressure_based_on_rate = "Low"
+
+        # Further adjust pressure based on wickets left (less wickets means higher pressure)
+        if self.wickets_left <= 3:
+            pressure = "High"
+        elif self.wickets_left >= 7:
+            pressure = "Low"
+        else:
+            pressure = pressure_based_on_rate
+
+        # Consider adjusting for overs_remaining if needed
+        # This is an example and can be fine-tuned according to your simulation needs.
+
+        self.match_pressure = pressure
+
+    # Additional methods such as _adjust_for_run_rate, _adjust_for_weather, _adjust_for_pressure...
+
 
 numerical_cols_dfbatting = dfbatting.select_dtypes(include=['float64', 'int64']).columns
 numerical_cols_dfbowling = dfbowling.select_dtypes(include=['float64', 'int64']).columns
@@ -346,21 +425,21 @@ def select_bowler(bowlers, phase):
     weights = {
         'Powerplay': {
             'true_economy_powerplay': 0.3,  # Higher is better
-            'true_sr_powerplay': 0.25,  # Higher is better
+            'true_sr_powerplay': 0.35,  # Higher is better
             'dot_percentage_powerplay': 0.25,  # Higher is better
-            'containment_powerplay': 0.2,  # Higher is better
+            'containment_powerplay': 0.1,  # Higher is better
         },
         'Middle Overs': {
             'true_economy_middle': 0.25,  # Higher is better
-            'true_sr_middle': 0.3,  # Higher is better
-            'dot_percentage_middle': 0.2,  # Higher is better
+            'true_sr_middle': 0.2,  # Higher is better
+            'dot_percentage_middle': 0.3,  # Higher is better
             'containment_middle': 0.25,  # Higher is better
         },
         'Death Overs': {
-            'true_economy_death': 0.2,  # Higher is better
+            'true_economy_death': 0.5,  # Higher is better
             'true_sr_death': 0.3,  # Higher is better
-            'dot_percentage_death': 0.3,  # Higher is better
-            'containment_death': 0.2,  # Higher is better
+            'dot_percentage_death': 0.1,  # Higher is better
+            'containment_death': 0.1,  # Higher is better
         }
     }
     
@@ -379,21 +458,21 @@ def select_bowler(bowlers, phase):
 def select_batsman(batsmen, phase):
     weights = {
         'Powerplay': {
-            'active_ratio_powerplay': 0.1,
-            'striking_ratio_powerplay': 0.2,
+            'active_ratio_powerplay': 0.0,
+            'striking_ratio_powerplay': 0.1,
             'true_sr_powerplay': 0.4,
-            'true_avg_powerplay': 0.3,
+            'true_avg_powerplay': 0.5,
         },
         'Middle Overs': {
-            'active_ratio_middle': 0.15,
-            'striking_ratio_middle': 0.15,
-            'true_sr_middle': 0.35,
-            'true_avg_middle': 0.35,
+            'active_ratio_middle': 0.1,
+            'striking_ratio_middle': 0.1,
+            'true_sr_middle': 0.4,
+            'true_avg_middle': 0.4,
         },
         'Death Overs': {
-            'active_ratio_death': 0.2,
-            'striking_ratio_death': 0.25,
-            'true_sr_death': 0.3,
+            'active_ratio_death': 0.1,
+            'striking_ratio_death': 0.15,
+            'true_sr_death': 0.5,
             'true_avg_death': 0.25,
         }
     }
@@ -423,7 +502,7 @@ def simulate_match(batsmen1, bowlers1,batsmen2, bowlers2, venue):
     print(f"Team 1 scored {team1_runs} for {team1_wickets} wickets.")
 
     # Simulate the second innings with an additional check for surpassing Team 1's score
-    team2_runs, team2_wickets, team2_ball_data = simulate_innings(team2_batsmen, team1_bowlers, venue, 2, is_second_innings=True, target_runs=team1_runs + 1)
+    team2_runs, team2_wickets, team2_ball_data= simulate_innings(team2_batsmen, team1_bowlers, venue, 2, is_second_innings=True, target_runs=team1_runs + 1)
     print(f"Team 2 scored {team2_runs} for {team2_wickets} wickets.")
 
     # Determine the winner based on the scores
@@ -437,30 +516,19 @@ def simulate_match(batsmen1, bowlers1,batsmen2, bowlers2, venue):
     # Combine ball data from both innings and create DataFrame
     all_balls_data = team1_ball_data + team2_ball_data
     match_df = pd.DataFrame(all_balls_data)
-
+    
     # This line is for demonstration. You may want to return, save, or process the DataFrame differently.
     return match_df
 
 def print_ball_outcome(outcome_description):
     print(outcome_description)
 
-def adjust_probabilities(base_probabilities, batting_modifier, bowling_modifier):
-    # Example of a more subtle adjustment
-    adjusted_probabilities = {}
-    for outcome, base_prob in base_probabilities.items():
-        adjusted_prob = base_prob * (1 + 0.5 * (batting_modifier - bowling_modifier))
-        adjusted_probabilities[outcome] = max(min(adjusted_prob, 0.9), 0.1)  # Ensure probabilities are within realistic bounds
-
-    # Normalize probabilities
-    total_prob = sum(adjusted_probabilities.values())
-    adjusted_probabilities = {outcome: prob / total_prob for outcome, prob in adjusted_probabilities.items()}
-    
-    return adjusted_probabilities
 
 def simulate_innings(batsmen, bowlers, venue, innings, total_overs=20, is_second_innings=False, target_runs=None):
     runs = 0
     wickets = 0
     all_balls_data = []
+    all_probs_data = []
     last_bowler = None
     bowler_overs = {bowler.name: 0 for bowler in bowlers}
 
@@ -472,20 +540,30 @@ def simulate_innings(batsmen, bowlers, venue, innings, total_overs=20, is_second
 
     for over in range(total_overs):
         phase = "Powerplay" if over < 6 else "Middle Overs" if 6 <= over < 15 else "Death Overs"
+        overs_completed = over if over > 0 else 1  # Avoid division by zero
+        current_run_rate = runs / overs_completed
+        required_run_rate = (target_runs - runs) / (total_overs - overs_completed) if target_runs else None
         
         # Select the best bowler for the current phase
         current_bowler = select_bowler([b for b in bowlers if b.name != last_bowler and bowler_overs[b.name] < 4], phase)
         last_bowler = current_bowler.name
         bowler_overs[current_bowler.name] += 1
 
-        for ball in range(1, 7):  # Each over consists of 6 legal deliveries
+        for ball in range(1, 7): 
+            match_dynamics = MatchDynamics(current_run_rate=current_run_rate, 
+                                           required_run_rate=required_run_rate, 
+                                           wickets_left=10 - wickets, 
+                                           overs_remaining=total_overs - over, 
+                                           weather_condition="Ok", 
+                                           match_pressure="Medium", 
+                                           crowd_support="Neutral") # Each over consists of 6 legal deliveries
             if wickets >= 10 or (is_second_innings and runs >= target_runs):
                 break  # All out or target achieved
             
             striker = on_field_batsmen[striker_index]
-            
-            ball_data, outcome_description = simulate_ball(striker, current_bowler, over, venue)
+            ball_data, outcome_description = simulate_ball(striker, current_bowler, over, venue, match_dynamics)
             all_balls_data.append(ball_data)
+            #all_probs_data.append(prob_data)
             
             runs += ball_data['batsman_run']
             wickets += ball_data['isWicketDelivery']
@@ -508,55 +586,72 @@ def simulate_innings(batsmen, bowlers, venue, innings, total_overs=20, is_second
     return runs, wickets, all_balls_data
 
 
-import numpy as np
-random.seed(42)  # Set a seed value for reproducibility
+def simulate_ball(batsman, bowler, over_number, venue, match_dynamics):
+    assert isinstance(batsman, Batsman), "batsman is not an instance of Batsman"
+    assert isinstance(bowler, Bowler), "bowler is not an instance of Bowler"
+    assert isinstance(venue, Venue), "venue is not an instance of Venue"
+    assert isinstance(match_dynamics, MatchDynamics), "match_dynamics is not an instance of MatchDynamics"
+    
+    # Calculate base probabilities from venue, batsman, and bowler
+    venue_probs = venue.venue_base_probabilities(over_number)
+    batsman_probs = batsman.calculate_probabilities(over_number)
+    bowler_probs = bowler.calculate_probabilities(over_number)
 
-def simulate_ball(batsman, bowler, over_number, venue):
-    over_number = int(over_number)
-    venue_probs = venue.calculate_base_probabilities(over_number)
-    batsman_probs = batsman.calculate_base_probabilities(over_number) or {}
-    bowler_probs = bowler.calculate_base_probabilities(over_number) or {}
+    # Calculate adjustments based on match dynamics
+    dynamics_adjustments = match_dynamics.calculate_dynamics_probabilities()
 
+    # Base probabilities considering match dynamics
+    base_probabilities = match_dynamics._base_probabilities()
     combined_probabilities = {}
-    for outcome in venue_probs.keys():
-        venue_prob = venue_probs.get(outcome, 0)
-        batsman_prob = batsman_probs.get(outcome, 0)
-        bowler_prob = bowler_probs.get(outcome, 0)
+
+    # Combine and adjust probabilities
+    for outcome in base_probabilities.keys():
+        venue_prob = venue_probs.get(outcome, base_probabilities[outcome])
+        batsman_prob = batsman_probs.get(outcome, base_probabilities[outcome])
+        bowler_prob = bowler_probs.get(outcome, base_probabilities[outcome])
+
+        # Starting point for combination
+        combined_prob = (venue_prob + batsman_prob + bowler_prob) / 3
         
-        # Calculating weighted probabilities
-        combined_prob = 0.5 * venue_prob + 0.25 * batsman_prob - 0.25 * bowler_prob
+        # Apply match dynamics adjustments here
+        # Example: Adjusting for "batting_difficulty" and "bowling_difficulty"
+        if outcome in ['4', '6']:  # Impactful hits like boundaries
+            combined_prob *= dynamics_adjustments.get("batting_difficulty", 1.0)
+        if outcome == 'Wickets':  # Wicket falling probability
+            combined_prob *= dynamics_adjustments.get("bowling_difficulty", 1.0)
+
+        # Adjusting based on match pressure (already calculated in MatchDynamics)
+        # No explicit adjustment needed here if it's encapsulated in the dynamics calculations
+
         combined_probabilities[outcome] = np.clip(combined_prob, 0, 1)
-    
-    # Normalize the combined probabilities to ensure they sum to 1
+
+    # Normalize combined probabilities
     total_prob = sum(combined_probabilities.values())
-    normalized_probabilities = {outcome: (prob / total_prob) for outcome, prob in combined_probabilities.items() if total_prob > 0}
-    
-    # Ensure we have normalized probabilities; if total_prob is 0, it implies an error in calculation or data
+    normalized_probabilities = {outcome: prob / total_prob for outcome, prob in combined_probabilities.items()} if total_prob > 0 else {}
+
     if not normalized_probabilities:
-        raise ValueError("Combined probabilities normalization failed due to zero total probability. Check input data and calculations.")
+        raise ValueError("Error in probability calculations.")
 
     # Select outcome based on normalized probabilities
     outcomes, probabilities = zip(*normalized_probabilities.items())
-    outcome = np.random.choice(outcomes, p=probabilities)
-    print(outcome, probabilities)
-    
-    # Generate ball outcome data based on the selected outcome
+    selected_outcome = np.random.choice(outcomes, p=probabilities)
+
+    # Constructing ball outcome data
     ball_data = {
         'batter': batsman.name,
         'bowler': bowler.name,
-        'batsman_run': int(outcome) if outcome.isdigit() else 0,
+        'batsman_run': int(selected_outcome) if selected_outcome.isdigit() else 0,
         'extras_run': 0,
-        'total_run': int(outcome) if outcome.isdigit() else 0,
-        'non_boundary': 0 if outcome in ['4', '6'] else 1,
-        'isWicketDelivery': 1 if outcome == 'wicket' else 0,
-        'player_out': batsman.name if outcome == 'wicket' else '',
+        'total_run': int(selected_outcome) if selected_outcome.isdigit() else 0,
+        'non_boundary': 0 if selected_outcome in ['4', '6'] else 1,
+        'isWicketDelivery': 1 if selected_outcome == 'Wickets' else 0,
+        'player_out': batsman.name if selected_outcome == 'Wickets' else '',
         'BattingTeam': batsman.team,
         'Venue': venue.venue_name,
-        'BowlingTeam': bowler.team
+        'BowlingTeam': bowler.team,
     }
 
-    outcome_description = f"{batsman.name} scores {outcome} run(s) against {bowler.name}" if outcome.isdigit() else f"{batsman.name} is out" if outcome == 'wicket' else f"{batsman.name} faces a dot ball against {bowler.name}"
-
+    outcome_description = f"{batsman.name} scores {selected_outcome} run(s) against {bowler.name}" if selected_outcome.isdigit() else f"{batsman.name} is out" if selected_outcome == 'Wickets' else f"{batsman.name} faces a dot ball against {bowler.name}"
     return ball_data, outcome_description
 
 from rest_framework.views import APIView
@@ -578,15 +673,16 @@ class MatchSimulationAPIView(APIView):
             player_stats2 = get_player_all_profiles(team2,  dfbatting, dfbowling)
             for player_name, stats in player_stats1.items():
                 if 'batting' in stats and stats['batting'] is not None:
-                    batsmen1.append(Batsman(player_name, team="Team 1", **stats['batting']))
+                    batsmen1.append(Batsman(player_name,dfDeliveries ,team="Team 1",  **stats['batting']))
+
                 if 'bowling' in stats and stats['bowling'] is not None:
-                    bowlers1.append(Bowler(player_name, team="Team 1", **stats['bowling']))
+                    bowlers1.append(Bowler(player_name, dfDeliveries,"Team 1",  **stats['bowling']))
 
             for player_name, stats in player_stats2.items():
                 if 'batting' in stats and stats['batting'] is not None:
-                    batsmen2.append(Batsman(player_name, team="Team 2", **stats['batting']))
+                    batsmen2.append(Batsman(player_name, dfDeliveries,team="Team 2",  **stats['batting']))
                 if 'bowling' in stats and stats['bowling'] is not None:
-                    bowlers2.append(Bowler(player_name, team="Team 2", **stats['bowling']))
+                    bowlers2.append(Bowler(player_name, dfDeliveries, "Team 2", **stats['bowling']))
 
             venue1 = get_venue_features(dfvenue, dfDeliveries, venue_name)
             # Create combined lists for batsmen and bowlers from both teams
