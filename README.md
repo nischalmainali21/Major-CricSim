@@ -6,6 +6,8 @@ This repo contains the backend, models, and notebooks for test builds and simula
 
 The [deployed version](https://cricsim.vercel.app/) only works for for comparing players and does not have simulation capabilites. For the full project, clone this repo and the frontend.
 
+Currently, the backend uses the cric_model_3rd.pth
+
 # Installation
 
 Create a virtual environment. Activate the environment.
@@ -34,3 +36,7 @@ Download and place the following files in appropriate location. All the extra fi
 cd Major-CricSim/backend/cric_site
 python manage.py runserver
 ```
+
+- Feature Extraction in Notebooks/features.ipynb
+- The heuristic model in the data_amrit/advanced_rulebased_stable.ipynb
+- The LSTM model in test_build with simulation in simulate_test
